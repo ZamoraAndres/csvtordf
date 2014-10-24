@@ -1,0 +1,4212 @@
+@prefix c1: <http://localhost:8000/project/volcanos/source> .
+@prefix c2: <http://localhost:8000/project/volcanos/source#> .
+
+c1:0 a c2:volcanos ;
+	c2:QAU "URI" ;
+	c2:QVG "country" ;
+	c2:E13 "elev" ;
+	c2:0ZY "latitude" ;
+	c2:UM8 "longitude" ;
+	c2:I91 "name" ;
+	c2:KK5 "region" ;
+	c2:FAC "type" .
+
+c1:1 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/99" ;
+	c2:QVG "Japan" ;
+	c2:E13 "217"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "27.85"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "128.25"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Iwo-Tori-shima" ;
+	c2:KK5 "Ryukyu Is" ;
+	c2:FAC "Complex volcano" .
+
+c1:2 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/98" ;
+	c2:QVG "Bolivia" ;
+	c2:E13 "5163"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-20.73"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-68.55"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Irruputuncu" ;
+	c2:KK5 "Chile-N" ;
+	c2:FAC "Stratovolcano" .
+
+c1:3 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/97" ;
+	c2:QVG "Costa Rica" ;
+	c2:E13 "3432"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "9.979"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-83.852"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Irazu" ;
+	c2:KK5 "Costa Rica" ;
+	c2:FAC "Stratovolcano" .
+
+c1:4 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/96" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "1018"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-8.54"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "123.59"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Iliwerung" ;
+	c2:KK5 "Lesser Sunda Is" ;
+	c2:FAC "Complex volcano" .
+
+c1:5 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/95" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "1659"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-8.342"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "123.258"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Iliboleng" ;
+	c2:KK5 "Lesser Sunda Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:6 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/94" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "2799"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-8.058"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "114.242"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Ijen" ;
+	c2:KK5 "Java" ;
+	c2:FAC "Stratovolcano" .
+
+c1:7 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/93" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "1325"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "1.475"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "127.642"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Ibu" ;
+	c2:KK5 "Halmahera-Indonesia" ;
+	c2:FAC "Stratovolcano" .
+
+c1:8 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/92" ;
+	c2:QVG "Tonga" ;
+	c2:E13 "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-20.57"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-175.38"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Hunga Tonga-Hunga Ha'apai" ;
+	c2:KK5 "Tonga-SW Pacific" ;
+	c2:FAC "Submarine volcano" .
+
+c1:9 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/91" ;
+	c2:QVG "Chile" ;
+	c2:E13 "1905"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-45.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-72.97"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Hudson, Cerro" ;
+	c2:KK5 "Chile-S" ;
+	c2:FAC "Stratovolcano" .
+
+c1:10 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/90" ;
+	c2:QVG "Tonga" ;
+	c2:E13 "-2.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "-18.992"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-174.775"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Home Reef" ;
+	c2:KK5 "Tonga-SW Pacific" ;
+	c2:FAC "Submarine volcano" .
+
+c1:11 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/9" ;
+	c2:QVG "Russia" ;
+	c2:E13 "2339"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "50.858"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "155.55"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Alaid" ;
+	c2:KK5 "Kuril Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:12 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/89" ;
+	c2:QVG "Iceland" ;
+	c2:E13 "1491"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "63.98"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-19.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Hekla" ;
+	c2:KK5 "Iceland-S" ;
+	c2:FAC "Stratovolcano" .
+
+c1:13 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/88" ;
+	c2:QVG "Heard I. & McDonald Is." ;
+	c2:E13 "2745"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-53.106"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "73.513"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Heard" ;
+	c2:KK5 "Indian O-S" ;
+	c2:FAC "Stratovolcano" .
+
+c1:14 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/87" ;
+	c2:QVG "Ecuador" ;
+	c2:E13 "4784"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "..171E-1" ;
+	c2:UM8 "-78.598"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Guagua Pichincha" ;
+	c2:KK5 "Ecuador" ;
+	c2:FAC "Stratovolcano" .
+
+c1:15 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/86" ;
+	c2:QVG "Russia" ;
+	c2:E13 "1211"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "45.02"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "147.87"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Grozny Group" ;
+	c2:KK5 "Kuril Is" ;
+	c2:FAC "Complex volcano" .
+
+c1:16 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/85" ;
+	c2:QVG "Iceland" ;
+	c2:E13 "1725"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "64.42"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-17.33"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Grimsvotn" ;
+	c2:KK5 "Iceland-NE" ;
+	c2:FAC "Caldera" .
+
+c1:17 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/84" ;
+	c2:QVG "United States" ;
+	c2:E13 "1740"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "52.08"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-176.13"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Great Sitkin" ;
+	c2:KK5 "Aleutian Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:18 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/83" ;
+	c2:QVG "Russia" ;
+	c2:E13 "1829"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "52.558"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "158.03"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Gorely" ;
+	c2:KK5 "Kamchatka" ;
+	c2:FAC "Caldera" .
+
+c1:19 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/82" ;
+	c2:QVG "Vanuatu" ;
+	c2:E13 "797"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-14.27"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "167.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Gaua" ;
+	c2:KK5 "Vanuatu-SW Pacific" ;
+	c2:FAC "Stratovolcano" .
+
+c1:20 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/81" ;
+	c2:QVG "United States" ;
+	c2:E13 "1573"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "51.78"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-178.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Gareloi" ;
+	c2:KK5 "Aleutian Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:21 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/80" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "1635"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "1.375"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "127.52"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Gamkonora" ;
+	c2:KK5 "Halmahera-Indonesia" ;
+	c2:FAC "Stratovolcano" .
+
+c1:22 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/8" ;
+	c2:QVG "United States" ;
+	c2:E13 "1303"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "54.13"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-165.97"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Akutan" ;
+	c2:KK5 "Aleutian Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:23 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/79" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "1715"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "0.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "127.325"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Gamalama" ;
+	c2:KK5 "Halmahera-Indonesia" ;
+	c2:FAC "Stratovolcano" .
+
+c1:24 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/78" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "2168"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-7.25"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "108.05"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Galunggung" ;
+	c2:KK5 "Java" ;
+	c2:FAC "Stratovolcano" .
+
+c1:25 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/77" ;
+	c2:QVG "Colombia" ;
+	c2:E13 "4276"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "1.22"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-77.37"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Galeras" ;
+	c2:KK5 "Colombia" ;
+	c2:FAC "Complex volcano" .
+
+c1:26 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/76" ;
+	c2:QVG "Pacific Ocean" ;
+	c2:E13 "-2430.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "0.792"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-86.15"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Galapagos Rift" ;
+	c2:KK5 "Pacific-E" ;
+	c2:FAC "Submarine volcano" .
+
+c1:27 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/75" ;
+	c2:QVG "Japan" ;
+	c2:E13 "-14.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "24.28"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "141.52"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Fukutoku-okanoba" ;
+	c2:KK5 "Volcano Is-Japan" ;
+	c2:FAC "Submarine volcano" .
+
+c1:28 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/74" ;
+	c2:QVG "Japan" ;
+	c2:E13 "-217.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "21.925"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "143.442"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Fukujin" ;
+	c2:KK5 "Volcano Is-Japan" ;
+	c2:FAC "Submarine volcano" .
+
+c1:29 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/73" ;
+	c2:QVG "Guatemala" ;
+	c2:E13 "3763"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "14.473"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-90.88"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Fuego" ;
+	c2:KK5 "Guatemala" ;
+	c2:FAC "Stratovolcano" .
+
+c1:30 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/72" ;
+	c2:QVG "Reunion" ;
+	c2:E13 "2631"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-21.229"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "55.713"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Fournaise, Piton de la" ;
+	c2:KK5 "Indian O-W" ;
+	c2:FAC "Shield volcano" .
+
+c1:31 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/71" ;
+	c2:QVG "Cape Verde" ;
+	c2:E13 "2829"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "14.95"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-24.35"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Fogo" ;
+	c2:KK5 "Cape Verde Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:32 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/70" ;
+	c2:QVG "Ecuador" ;
+	c2:E13 "1495"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "..37E-1" ;
+	c2:UM8 "-91.55"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Fernandina" ;
+	c2:KK5 "Galapagos" ;
+	c2:FAC "Shield volcano" .
+
+c1:33 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/7" ;
+	c2:QVG "Japan" ;
+	c2:E13 "1366"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "39.97"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "140.77"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Akita-Yake-yama" ;
+	c2:KK5 "Honshu-Japan" ;
+	c2:FAC "Complex volcano" .
+
+c1:34 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/69" ;
+	c2:QVG "United States" ;
+	c2:E13 "360"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "20.53"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "144.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Farallon de Pajaros" ;
+	c2:KK5 "Mariana Is-C Pacific" ;
+	c2:FAC "Stratovolcano" .
+
+c1:35 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/68" ;
+	c2:QVG "Iceland" ;
+	c2:E13 "1666"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "63.63"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-19.62"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Eyjafjallajokull" ;
+	c2:KK5 "Iceland-S" ;
+	c2:FAC "Stratovolcano" .
+
+c1:36 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/67" ;
+	c2:QVG "Italy" ;
+	c2:E13 "3350"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "37.734"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "15.004"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Etna" ;
+	c2:KK5 "Italy" ;
+	c2:FAC "Stratovolcano" .
+
+c1:37 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/66" ;
+	c2:QVG "Ethiopia" ;
+	c2:E13 "613"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "13.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "40.67"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Erta Ale" ;
+	c2:KK5 "Africa-NE" ;
+	c2:FAC "Shield volcano" .
+
+c1:38 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/65" ;
+	c2:QVG "Antarctica" ;
+	c2:E13 "3794"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-77.53"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "167.17"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Erebus" ;
+	c2:KK5 "Antarctica" ;
+	c2:FAC "Stratovolcano" .
+
+c1:39 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/64" ;
+	c2:QVG "Vanuatu" ;
+	c2:E13 "833"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-16.68"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "168.37"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Epi" ;
+	c2:KK5 "Vanuatu-SW Pacific" ;
+	c2:FAC "Stratovolcano" .
+
+c1:40 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/63" ;
+	c2:QVG "Russia" ;
+	c2:E13 "1170"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "48.958"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "153.93"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Ekarma" ;
+	c2:KK5 "Kuril Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:41 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/62" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "2124"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-8.808"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "121.18"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Ebulobo" ;
+	c2:KK5 "Lesser Sunda Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:42 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/61" ;
+	c2:QVG "Russia" ;
+	c2:E13 "1156"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "50.68"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "156.02"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Ebeko" ;
+	c2:KK5 "Kuril Is" ;
+	c2:FAC "Somma volcano" .
+
+c1:43 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/60" ;
+	c2:QVG "Pacific Ocean" ;
+	c2:E13 "-80.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "-20.98"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "170.28"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Eastern Gemini Seamount" ;
+	c2:KK5 "SW Pacific" ;
+	c2:FAC "Submarine volcano" .
+
+c1:44 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/6" ;
+	c2:QVG "Japan" ;
+	c2:E13 "1637"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "39.75"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "140.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Akita-Komaga-take" ;
+	c2:KK5 "Honshu-Japan" ;
+	c2:FAC "Stratovolcano" .
+
+c1:45 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/59" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "1185"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "1.68"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "127.88"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Dukono" ;
+	c2:KK5 "Halmahera-Indonesia" ;
+	c2:FAC "Complex volcano" .
+
+c1:46 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/58" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "2565"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-7.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "109.92"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Dieng Volc Complex" ;
+	c2:KK5 "Java" ;
+	c2:FAC "Complex volcano" .
+
+c1:47 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/57" ;
+	c2:QVG "Philippines" ;
+	c2:E13 "244"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "19.077"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "122.202"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Didicas" ;
+	c2:KK5 "Luzon-N of" ;
+	c2:FAC "Compound volcano" .
+
+c1:48 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/56" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "3173"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-4.03"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "103.13"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Dempo" ;
+	c2:KK5 "Sumatra" ;
+	c2:FAC "Stratovolcano" .
+
+c1:49 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/55" ;
+	c2:QVG "Antarctica" ;
+	c2:E13 "576"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-62.97"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-60.65"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Deception Island" ;
+	c2:KK5 "Antarctica" ;
+	c2:FAC "Caldera" .
+
+c1:50 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/54" ;
+	c2:QVG "Tonga" ;
+	c2:E13 "-33.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "-15.62"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-173.67"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Curacoa" ;
+	c2:KK5 "Tonga-SW Pacific" ;
+	c2:FAC "Submarine volcano" .
+
+c1:51 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/53" ;
+	c2:QVG "Chile" ;
+	c2:E13 "2965"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-37.85"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-71.17"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Copahue" ;
+	c2:KK5 "Chile-C" ;
+	c2:FAC "Stratovolcano" .
+
+c1:52 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/52" ;
+	c2:QVG "Nicaragua" ;
+	c2:E13 "1700"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "11.538"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-85.622"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Concepcion" ;
+	c2:KK5 "Nicaragua" ;
+	c2:FAC "Stratovolcano" .
+
+c1:53 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/51" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "507"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "..17E-1" ;
+	c2:UM8 "121.608"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Colo [Una Una]" ;
+	c2:KK5 "Sulawesi-Indonesia" ;
+	c2:FAC "Stratovolcano" .
+
+c1:54 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/50" ;
+	c2:QVG "Mexico" ;
+	c2:E13 "3850"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "19.514"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-103.62"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Colima" ;
+	c2:KK5 "Mexico" ;
+	c2:FAC "Stratovolcano" .
+
+c1:55 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/5" ;
+	c2:QVG "Japan" ;
+	c2:E13 "1499"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "43.38"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "144.02"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Akan" ;
+	c2:KK5 "Hokkaido-Japan" ;
+	c2:FAC "Caldera" .
+
+c1:56 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/49" ;
+	c2:QVG "Pacific Ocean" ;
+	c2:E13 "-2400.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "46.52"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-129.58"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "CoAxial Segment" ;
+	c2:KK5 "Pacific-NE" ;
+	c2:FAC "Submarine volcano" .
+
+c1:57 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/48" ;
+	c2:QVG "United States" ;
+	c2:E13 "1730"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "52.82"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-169.95"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Cleveland" ;
+	c2:KK5 "Aleutian Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:58 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/47" ;
+	c2:QVG "Pacific Ocean" ;
+	c2:E13 "-2140.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "44.83"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-130.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Cleft Segment" ;
+	c2:KK5 "Pacific-NE" ;
+	c2:FAC "Submarine volcano" .
+
+c1:59 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/46" ;
+	c2:QVG "Japan" ;
+	c2:E13 "2237"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "39.08"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "140.03"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Chokai" ;
+	c2:KK5 "Honshu-Japan" ;
+	c2:FAC "Stratovolcano" .
+
+c1:60 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/45" ;
+	c2:QVG "Russia" ;
+	c2:E13 "742"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "46.525"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "150.875"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Chirpoi" ;
+	c2:KK5 "Kuril Is" ;
+	c2:FAC "Caldera" .
+
+c1:61 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/44" ;
+	c2:QVG "Russia" ;
+	c2:E13 "724"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "48.98"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "153.48"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Chirinkotan" ;
+	c2:KK5 "Kuril Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:62 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/43" ;
+	c2:QVG "Chile" ;
+	c2:E13 "3212"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-36.863"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-71.377"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Chillan, Nevados de" ;
+	c2:KK5 "Chile-C" ;
+	c2:FAC "Stratovolcano" .
+
+c1:63 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/420" ;
+	c2:QVG "Russia" ;
+	c2:E13 "2958"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "53.59"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "159.147"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Zhupanovsky" ;
+	c2:KK5 "Kamchatka" ;
+	c2:FAC "Compound volcano" .
+
+c1:64 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/42" ;
+	c2:QVG "Russia" ;
+	c2:E13 "1816"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "50.325"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "155.458"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Chikurachki" ;
+	c2:KK5 "Kuril Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:65 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/419" ;
+	c2:QVG "Taiwan" ;
+	c2:E13 "-418.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "26.18"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "122.458"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Zengyu" ;
+	c2:KK5 "Taiwan-N of" ;
+	c2:FAC "Submarine volcano" .
+
+c1:66 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/418" ;
+	c2:QVG "Russia" ;
+	c2:E13 "624"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "46.925"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "151.95"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Zavaritzki Caldera" ;
+	c2:KK5 "Kuril Is" ;
+	c2:FAC "Caldera" .
+
+c1:67 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/417" ;
+	c2:QVG "Japan" ;
+	c2:E13 "1841"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "38.15"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "140.45"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Zao" ;
+	c2:KK5 "Honshu-Japan" ;
+	c2:FAC "Complex volcano" .
+
+c1:68 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/416" ;
+	c2:QVG "United States" ;
+	c2:E13 "550"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "52.63"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-170.63"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Yunaska" ;
+	c2:KK5 "Aleutian Is" ;
+	c2:FAC "Shield volcano" .
+
+c1:69 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/415" ;
+	c2:QVG "United States" ;
+	c2:E13 "4317"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "62.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-144.02"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Wrangell" ;
+	c2:KK5 "Alaska-E" ;
+	c2:FAC "Shield volcano" .
+
+c1:70 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/414" ;
+	c2:QVG "Papua New Guinea" ;
+	c2:E13 "640"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-9.57"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "149.075"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Waiowa" ;
+	c2:KK5 "New Guinea" ;
+	c2:FAC "Pyroclastic cone" .
+
+c1:71 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/413" ;
+	c2:QVG "Rwanda" ;
+	c2:E13 "3711"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-1.47"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "29.492"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Visoke" ;
+	c2:KK5 "Africa-C" ;
+	c2:FAC "Stratovolcano" .
+
+c1:72 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/412" ;
+	c2:QVG "Papua New Guinea" ;
+	c2:E13 "1925"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-9.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "149.07"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Victory" ;
+	c2:KK5 "New Guinea" ;
+	c2:FAC "Stratovolcano" .
+
+c1:73 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/411" ;
+	c2:QVG "Italy" ;
+	c2:E13 "1281"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "40.821"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "14.426"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Vesuvius" ;
+	c2:KK5 "Italy" ;
+	c2:FAC "Complex volcano" .
+
+c1:74 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/410" ;
+	c2:QVG "Tonga" ;
+	c2:E13 "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-21.07"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-175.33"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Unnamed" ;
+	c2:KK5 "Tonga-SW Pacific" ;
+	c2:FAC "Not Volcanic" .
+
+c1:75 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/41" ;
+	c2:QVG "United States" ;
+	c2:E13 "2075"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "57.13"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-157.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Chiginagak" ;
+	c2:KK5 "Alaska Peninsula" ;
+	c2:FAC "Stratovolcano" .
+
+c1:76 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/409" ;
+	c2:QVG "Russia" ;
+	c2:E13 "-150.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "48.08"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "153.33"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Unnamed" ;
+	c2:KK5 "Kuril Is" ;
+	c2:FAC "Submarine volcano" .
+
+c1:77 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/408" ;
+	c2:QVG "Tonga" ;
+	c2:E13 "-500.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "-21.38"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-175.65"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Unnamed" ;
+	c2:KK5 "Tonga-SW Pacific" ;
+	c2:FAC "Submarine volcano" .
+
+c1:78 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/407" ;
+	c2:QVG "United States" ;
+	c2:E13 "-4000.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "23.58"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-163.83"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Unnamed" ;
+	c2:KK5 "Hawaiian Is" ;
+	c2:FAC "Submarine volcano" .
+
+c1:79 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/406" ;
+	c2:QVG "Arctic Ocean" ;
+	c2:E13 "-1500.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "88.27"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-65.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Unnamed" ;
+	c2:KK5 "Arctic Ocean" ;
+	c2:FAC "Submarine volcano" .
+
+c1:80 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/405" ;
+	c2:QVG "Peru" ;
+	c2:E13 "5815"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-17.025"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-70.358"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Tutupaca" ;
+	c2:KK5 "Peru" ;
+	c2:FAC "Stratovolcano" .
+
+c1:81 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/404" ;
+	c2:QVG "Ethiopia" ;
+	c2:E13 "2349"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "8.158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "39.13"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Tullu Moje" ;
+	c2:KK5 "Africa-NE" ;
+	c2:FAC "Pumice cone" .
+
+c1:82 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/403" ;
+	c2:QVG "Atlantic Ocean" ;
+	c2:E13 "2060"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-37.092"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-12.28"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Tristan da Cunha" ;
+	c2:KK5 "Atlantic-S" ;
+	c2:FAC "Stratovolcano" .
+
+c1:83 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/402" ;
+	c2:QVG "Colombia" ;
+	c2:E13 "5200"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "4.67"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-75.33"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Tolima" ;
+	c2:KK5 "Colombia" ;
+	c2:FAC "Stratovolcano" .
+
+c1:84 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/401" ;
+	c2:QVG "Tonga" ;
+	c2:E13 "512"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-19.75"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-175.07"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Tofua" ;
+	c2:KK5 "Tonga-SW Pacific" ;
+	c2:FAC "Caldera" .
+
+c1:85 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/400" ;
+	c2:QVG "Chile" ;
+	c2:E13 "4280"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-34.814"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-70.352"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Tinguiririca" ;
+	c2:KK5 "Chile-C" ;
+	c2:FAC "Stratovolcano" .
+
+c1:86 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/40" ;
+	c2:QVG "Mexico" ;
+	c2:E13 "1150"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "17.36"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-93.228"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Chichon, El" ;
+	c2:KK5 "Mexico" ;
+	c2:FAC "Tuff cone" .
+
+c1:87 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/4" ;
+	c2:QVG "Russia" ;
+	c2:E13 "1180"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "53.98"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "159.45"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Akademia Nauk" ;
+	c2:KK5 "Kamchatka" ;
+	c2:FAC "Stratovolcano" .
+
+c1:88 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/399" ;
+	c2:QVG "Iceland" ;
+	c2:E13 "1659"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "62.27"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-17.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Thordarhyrna" ;
+	c2:KK5 "Iceland-S" ;
+	c2:FAC "Stratovolcano" .
+
+c1:89 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/398" ;
+	c2:QVG "Pacific Ocean" ;
+	c2:E13 "655"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-6.92"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "129.125"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Teon" ;
+	c2:KK5 "Banda Sea" ;
+	c2:FAC "Stratovolcano" .
+
+c1:90 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/397" ;
+	c2:QVG "Spain" ;
+	c2:E13 "3715"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "28.271"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-16.641"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Tenerife" ;
+	c2:KK5 "Canary Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:91 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/396" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "2624"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "4.77"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "96.808"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Telong, Bur Ni" ;
+	c2:KK5 "Sumatra" ;
+	c2:FAC "Stratovolcano" .
+
+c1:92 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/395" ;
+	c2:QVG "Russia" ;
+	c2:E13 "1325"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "49.35"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "154.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Tao-Rusyr Caldera" ;
+	c2:KK5 "Kuril Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:93 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/394" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "2438"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "..433E-1" ;
+	c2:UM8 "100.317"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Tandikat" ;
+	c2:KK5 "Sumatra" ;
+	c2:FAC "Stratovolcano" .
+
+c1:94 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/393" ;
+	c2:QVG "United States" ;
+	c2:E13 "1806"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "51.88"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-178.13"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Tanaga" ;
+	c2:KK5 "Aleutian Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:95 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/392" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "1000"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-5.25"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "104.27"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Suoh" ;
+	c2:KK5 "Sumatra" ;
+	c2:FAC "Maar" .
+
+c1:96 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/391" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "2507"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-2.414"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "101.728"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Sumbing" ;
+	c2:KK5 "Sumatra" ;
+	c2:FAC "Stratovolcano" .
+
+c1:97 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/390" ;
+	c2:QVG "United States" ;
+	c2:E13 "270"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-2.38"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "147.35"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "St. Andrew Strait" ;
+	c2:KK5 "Admiralty Is-SW Paci" ;
+	c2:FAC "Complex volcano" .
+
+c1:98 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/39" ;
+	c2:QVG "Chile" ;
+	c2:E13 "962"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-42.833"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-72.646"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Chaiten" ;
+	c2:KK5 "Chile-S" ;
+	c2:FAC "Caldera" .
+
+c1:99 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/389" ;
+	c2:QVG "Philippines" ;
+	c2:E13 "2090"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "19.523"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "121.94"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Smith Volcano" ;
+	c2:KK5 "Luzon-N of" ;
+	c2:FAC "Stratovolcano" .
+
+c1:100 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/388" ;
+	c2:QVG "Japan" ;
+	c2:E13 "136"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "31.32"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "140.05"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Smith Rock" ;
+	c2:KK5 "Izu Is-Japan" ;
+	c2:FAC "Submarine volcano" .
+
+c1:101 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/387" ;
+	c2:QVG "Japan" ;
+	c2:E13 "1563"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "44.13"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "145.17"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Shiretoko-Iwo-zan" ;
+	c2:KK5 "Hokkaido-Japan" ;
+	c2:FAC "Stratovolcano" .
+
+c1:102 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/386" ;
+	c2:QVG "Pacific Ocean" ;
+	c2:E13 "641"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-6.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "130.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Serua" ;
+	c2:KK5 "Banda Sea" ;
+	c2:FAC "Stratovolcano" .
+
+c1:103 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/385" ;
+	c2:QVG "Samoa" ;
+	c2:E13 "1858"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-13.612"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-172.525"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Savai'i" ;
+	c2:KK5 "Samoa-SW Pacific" ;
+	c2:FAC "Shield volcano" .
+
+c1:104 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/384" ;
+	c2:QVG "Greece" ;
+	c2:E13 "329"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "36.404"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "25.396"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Santorini" ;
+	c2:KK5 "Greece" ;
+	c2:FAC "Shield volcano" .
+
+c1:105 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/383" ;
+	c2:QVG "Ecuador" ;
+	c2:E13 "920"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "..22E-1" ;
+	c2:UM8 "-90.77"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Santiago" ;
+	c2:KK5 "Galapagos" ;
+	c2:FAC "Shield volcano" .
+
+c1:106 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/382" ;
+	c2:QVG "Equatorial Guinea" ;
+	c2:E13 "2972"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "3.58"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "8.75"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Santa Isabel" ;
+	c2:KK5 "Africa-W" ;
+	c2:FAC "Shield volcano" .
+
+c1:107 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/381" ;
+	c2:QVG "El Salvador" ;
+	c2:E13 "2365"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "13.853"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-89.63"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Santa Ana" ;
+	c2:KK5 "El Salvador" ;
+	c2:FAC "Stratovolcano" .
+
+c1:108 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/380" ;
+	c2:QVG "El Salvador" ;
+	c2:E13 "1893"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "13.736"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-89.286"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "San Salvador" ;
+	c2:KK5 "El Salvador" ;
+	c2:FAC "Stratovolcano" .
+
+c1:109 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/38" ;
+	c2:QVG "Chile" ;
+	c2:E13 "1114"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-40.35"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-72.07"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Carran-Los Venados" ;
+	c2:KK5 "Chile-C" ;
+	c2:FAC "Pyroclastic cone" .
+
+c1:110 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/379" ;
+	c2:QVG "Chile" ;
+	c2:E13 "6145"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-21.88"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-68.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "San Pedro" ;
+	c2:KK5 "Chile-N" ;
+	c2:FAC "Stratovolcano" .
+
+c1:111 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/378" ;
+	c2:QVG "El Salvador" ;
+	c2:E13 "2381"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "13.853"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-89.63"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "San Marcelino" ;
+	c2:KK5 "El Salvador" ;
+	c2:FAC "Stratovolcano" .
+
+c1:112 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/377" ;
+	c2:QVG "Argentina" ;
+	c2:E13 "5856"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-33.782"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-69.897"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "San Jose" ;
+	c2:KK5 "Chile-C" ;
+	c2:FAC "Stratovolcano" .
+
+c1:113 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/376" ;
+	c2:QVG "Portugal" ;
+	c2:E13 "1053"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "38.65"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-28.08"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "San Jorge" ;
+	c2:KK5 "Azores" ;
+	c2:FAC "Fissure vent" .
+
+c1:114 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/375" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "2211"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-6.72"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "106.73"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Salak" ;
+	c2:KK5 "Java" ;
+	c2:FAC "Stratovolcano" .
+
+c1:115 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/374" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "725"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "2.28"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "125.425"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Ruang" ;
+	c2:KK5 "Sangihe Is-Indonesia" ;
+	c2:FAC "Stratovolcano" .
+
+c1:116 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/373" ;
+	c2:QVG "Russia" ;
+	c2:E13 "956"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "47.77"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "153.02"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Rasshua" ;
+	c2:KK5 "Kuril Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:117 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/372" ;
+	c2:QVG "Russia" ;
+	c2:E13 "551"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "48.292"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "153.25"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Raikoke" ;
+	c2:KK5 "Kuril Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:118 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/371" ;
+	c2:QVG "Philippines" ;
+	c2:E13 "2815"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "7.67"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "124.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Ragang" ;
+	c2:KK5 "Mindanao-Philippines" ;
+	c2:FAC "Stratovolcano" .
+
+c1:119 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/370" ;
+	c2:QVG "Antarctica" ;
+	c2:E13 "-27.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "-55.92"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-28.08"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Protector Shoal" ;
+	c2:KK5 "Antarctica" ;
+	c2:FAC "Submarine volcano" .
+
+c1:120 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/37" ;
+	c2:QVG "Philippines" ;
+	c2:E13 "2435"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "10.412"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "123.132"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Canlaon" ;
+	c2:KK5 "Philippines-C" ;
+	c2:FAC "Stratovolcano" .
+
+c1:121 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/369" ;
+	c2:QVG "Ecuador" ;
+	c2:E13 "780"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "0.58"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-90.75"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Pinta" ;
+	c2:KK5 "Galapagos" ;
+	c2:FAC "Shield volcano" .
+
+c1:122 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/368" ;
+	c2:QVG "Nicaragua" ;
+	c2:E13 "1088"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "12.495"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-86.688"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Pilas, Las" ;
+	c2:KK5 "Nicaragua" ;
+	c2:FAC "Complex volcano" .
+
+c1:123 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/367" ;
+	c2:QVG "Antarctica" ;
+	c2:E13 "180"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-62.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-57.93"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Penguin Island" ;
+	c2:KK5 "Antarctica" ;
+	c2:FAC "Stratovolcano" .
+
+c1:124 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/366" ;
+	c2:QVG "Martinique" ;
+	c2:E13 "1397"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "14.82"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-61.17"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Pelee" ;
+	c2:KK5 "W Indies" ;
+	c2:FAC "Stratovolcano" .
+
+c1:125 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/365" ;
+	c2:QVG "Mexico" ;
+	c2:E13 "3860"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "19.48"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-102.25"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Paricutin Volcanic Field" ;
+	c2:KK5 "Mexico" ;
+	c2:FAC "Cinder cone" .
+
+c1:126 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/364" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "2665"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-7.32"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "107.73"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Papandayan" ;
+	c2:KK5 "Java" ;
+	c2:FAC "Stratovolcano" .
+
+c1:127 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/363" ;
+	c2:QVG "Papua New Guinea" ;
+	c2:E13 "742"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-5.58"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "150.52"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Pago" ;
+	c2:KK5 "New Britain-SW Pac" ;
+	c2:FAC "Caldera" .
+
+c1:128 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/362" ;
+	c2:QVG "Indian Ocean" ;
+	c2:E13 "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "26.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "57.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Ormus Islands" ;
+	c2:KK5 "Arabia-S" ;
+	c2:FAC "Submarine volcano" .
+
+c1:129 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/361" ;
+	c2:QVG "United States" ;
+	c2:E13 "841"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "58.27"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-155.16"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Novarupta" ;
+	c2:KK5 "Alaska Peninsula" ;
+	c2:FAC "Caldera" .
+
+c1:130 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/360" ;
+	c2:QVG "Russia" ;
+	c2:E13 "1018"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "49.57"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "154.808"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Nemo Peak" ;
+	c2:KK5 "Kuril Is" ;
+	c2:FAC "Caldera" .
+
+c1:131 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/36" ;
+	c2:QVG "Cameroon" ;
+	c2:E13 "4095"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "4.203"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "9.17"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Cameroon, Mt." ;
+	c2:KK5 "Africa-W" ;
+	c2:FAC "Stratovolcano" .
+
+c1:132 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/359" ;
+	c2:QVG "Ecuador" ;
+	c2:E13 "4445"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "0.828"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-77.964"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Negro de Mayasquer, Cerro" ;
+	c2:KK5 "Colombia" ;
+	c2:FAC "Stratovolcano" .
+
+c1:133 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/358" ;
+	c2:QVG "Japan" ;
+	c2:E13 "1917"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "37.12"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "139.97"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Nasu" ;
+	c2:KK5 "Honshu-Japan" ;
+	c2:FAC "Stratovolcano" .
+
+c1:134 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/357" ;
+	c2:QVG "Japan" ;
+	c2:E13 "979"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "29.85"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "129.87"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Nakano-shima" ;
+	c2:KK5 "Ryukyu Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:135 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/356" ;
+	c2:QVG "Russia" ;
+	c2:E13 "2322"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "52.453"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "158.195"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Mutnovsky" ;
+	c2:KK5 "Kamchatka" ;
+	c2:FAC "Complex volcano" .
+
+c1:136 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/355" ;
+	c2:QVG "Portugal" ;
+	c2:E13 "-197.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "37.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-25.88"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Monaco Bank" ;
+	c2:KK5 "Azores" ;
+	c2:FAC "Submarine volcano" .
+
+c1:137 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/354" ;
+	c2:QVG "Nicaragua" ;
+	c2:E13 "1297"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "12.422"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-86.54"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Momotombo" ;
+	c2:KK5 "Nicaragua" ;
+	c2:FAC "Stratovolcano" .
+
+c1:138 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/353" ;
+	c2:QVG "Chile" ;
+	c2:E13 "2422"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-39.927"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-72.027"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Mocho-Choshuenco" ;
+	c2:KK5 "Chile-C" ;
+	c2:FAC "Stratovolcano" .
+
+c1:139 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/352" ;
+	c2:QVG "Costa Rica" ;
+	c2:E13 "2028"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "10.748"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-85.153"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Miravalles" ;
+	c2:KK5 "Costa Rica" ;
+	c2:FAC "Stratovolcano" .
+
+c1:140 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/351" ;
+	c2:QVG "Mexico" ;
+	c2:E13 "3860"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "19.48"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-102.25"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Michoacan-Guanajuato" ;
+	c2:KK5 "Mexico" ;
+	c2:FAC "Cinder cone" .
+
+c1:141 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/350" ;
+	c2:QVG "Tanzania" ;
+	c2:E13 "4565"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-3.25"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "36.75"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Meru" ;
+	c2:KK5 "Africa-E" ;
+	c2:FAC "Stratovolcano" .
+
+c1:142 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/35" ;
+	c2:QVG "Chile" ;
+	c2:E13 "3164"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-37.92"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-71.45"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Callaqui" ;
+	c2:KK5 "Chile-C" ;
+	c2:FAC "Stratovolcano" .
+
+c1:143 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/349" ;
+	c2:QVG "Pacific Ocean" ;
+	c2:E13 "177"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-22.33"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "171.32"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Matthew Island" ;
+	c2:KK5 "SW Pacific" ;
+	c2:FAC "Stratovolcano" .
+
+c1:144 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/348" ;
+	c2:QVG "United States" ;
+	c2:E13 "1860"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "58.17"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-155.35"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Martin" ;
+	c2:KK5 "Alaska Peninsula" ;
+	c2:FAC "Stratovolcano" .
+
+c1:145 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/347" ;
+	c2:QVG "Ethiopia" ;
+	c2:E13 "600"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "12.38"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "42.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Manda-Inakir" ;
+	c2:KK5 "Africa-NE" ;
+	c2:FAC "Fissure vent" .
+
+c1:146 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/346" ;
+	c2:QVG "Russia" ;
+	c2:E13 "1560"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "54.13"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "159.67"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Maly Semiachik" ;
+	c2:KK5 "Kamchatka" ;
+	c2:FAC "Caldera" .
+
+c1:147 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/345" ;
+	c2:QVG "Argentina" ;
+	c2:E13 "5264"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-34.161"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-69.833"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Maipo" ;
+	c2:KK5 "Chile-C" ;
+	c2:FAC "Caldera" .
+
+c1:148 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/344" ;
+	c2:QVG "United States" ;
+	c2:E13 "2165"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "58.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-155.25"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Mageik" ;
+	c2:KK5 "Alaska Peninsula" ;
+	c2:FAC "Stratovolcano" .
+
+c1:149 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/343" ;
+	c2:QVG "Papua New Guinea" ;
+	c2:E13 "858"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-4.92"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "151.158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Lolobau" ;
+	c2:KK5 "New Britain-SW Pac" ;
+	c2:FAC "Caldera" .
+
+c1:150 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/342" ;
+	c2:QVG "Iceland" ;
+	c2:E13 "1570"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "64.48"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-17.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Loki-Fogrufjoll" ;
+	c2:KK5 "Iceland-NE" ;
+	c2:FAC "Subglacial volcano" .
+
+c1:151 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/341" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "1423"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-8.272"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "123.505"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Lewotolo" ;
+	c2:KK5 "Lesser Sunda Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:152 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/340" ;
+	c2:QVG "Chile" ;
+	c2:E13 "3380"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-49.02"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-73.55"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Lautaro" ;
+	c2:KK5 "Chile-S" ;
+	c2:FAC "Stratovolcano" .
+
+c1:153 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/34" ;
+	c2:QVG "Philippines" ;
+	c2:E13 "1565"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "12.77"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "124.05"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Bulusan" ;
+	c2:KK5 "Luzon-Philippines" ;
+	c2:FAC "Stratovolcano" .
+
+c1:154 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/339" ;
+	c2:QVG "United States" ;
+	c2:E13 "3187"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "40.492"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-121.508"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Lassen Volc Center" ;
+	c2:KK5 "US-California" ;
+	c2:FAC "Stratovolcano" .
+
+c1:155 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/338" ;
+	c2:QVG "Papua New Guinea" ;
+	c2:E13 "1680"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-8.95"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "148.15"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Lamington" ;
+	c2:KK5 "New Guinea" ;
+	c2:FAC "Stratovolcano" .
+
+c1:156 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/337" ;
+	c2:QVG "Japan" ;
+	c2:E13 "1628"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "38.95"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "140.78"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Kurikoma" ;
+	c2:KK5 "Honshu-Japan" ;
+	c2:FAC "Stratovolcano" .
+
+c1:157 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/336" ;
+	c2:QVG "China" ;
+	c2:E13 "5808"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "35.52"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "80.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Kunlun Volc Group" ;
+	c2:KK5 "China-W" ;
+	c2:FAC "Pyroclastic cone" .
+
+c1:158 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/335" ;
+	c2:QVG "Russia" ;
+	c2:E13 "1079"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "51.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "157.53"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Ksudach" ;
+	c2:KK5 "Kamchatka" ;
+	c2:FAC "Stratovolcano" .
+
+c1:159 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/334" ;
+	c2:QVG "Russia" ;
+	c2:E13 "3528"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "54.753"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "160.527"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Kronotsky" ;
+	c2:KK5 "Kamchatka" ;
+	c2:FAC "Stratovolcano" .
+
+c1:160 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/333" ;
+	c2:QVG "Russia" ;
+	c2:E13 "3456"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "53.32"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "158.688"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Koryaksky" ;
+	c2:KK5 "Kamchatka" ;
+	c2:FAC "Stratovolcano" .
+
+c1:161 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/332" ;
+	c2:QVG "Russia" ;
+	c2:E13 "2485"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "55.13"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "160.32"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Kizimen" ;
+	c2:KK5 "Kamchatka" ;
+	c2:FAC "Stratovolcano" .
+
+c1:162 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/331" ;
+	c2:QVG "Japan" ;
+	c2:E13 "792"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "25.43"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "141.23"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Kita-Iwo-jima" ;
+	c2:KK5 "Volcano Is-Japan" ;
+	c2:FAC "Stratovolcano" .
+
+c1:163 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/330" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "1511"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-6.73"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "106.65"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Kiaraberes-Gagak" ;
+	c2:KK5 "Java" ;
+	c2:FAC "Stratovolcano" .
+
+c1:164 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/33" ;
+	c2:QVG "United States" ;
+	c2:E13 "101"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "53.93"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-168.03"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Bogoslof" ;
+	c2:KK5 "Aleutian Is" ;
+	c2:FAC "Submarine volcano" .
+
+c1:165 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/329" ;
+	c2:QVG "Russia" ;
+	c2:E13 "1145"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "49.12"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "154.508"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Kharimkotan" ;
+	c2:KK5 "Kuril Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:166 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/328" ;
+	c2:QVG "Russia" ;
+	c2:E13 "1172"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "47.35"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "152.475"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Ketoi" ;
+	c2:KK5 "Kuril Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:167 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/327" ;
+	c2:QVG "United States" ;
+	c2:E13 "2047"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "58.27"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-154.98"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Katmai" ;
+	c2:KK5 "Alaska Peninsula" ;
+	c2:FAC "Stratovolcano" .
+
+c1:168 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/326" ;
+	c2:QVG "Iceland" ;
+	c2:E13 "1512"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "63.63"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-19.05"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Katla" ;
+	c2:KK5 "Iceland-S" ;
+	c2:FAC "Subglacial volcano" .
+
+c1:169 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/325" ;
+	c2:QVG "Russia" ;
+	c2:E13 "1345"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "50.13"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "155.37"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Karpinsky Group" ;
+	c2:KK5 "Kuril Is" ;
+	c2:FAC "Cone" .
+
+c1:170 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/324" ;
+	c2:QVG "United States" ;
+	c2:E13 "893"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "52.97"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-169.72"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Kagamil" ;
+	c2:KK5 "Aleutian Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:171 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/323" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "1952"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-3.52"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "102.62"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Kaba" ;
+	c2:KK5 "Sumatra" ;
+	c2:FAC "Stratovolcano" .
+
+c1:172 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/322" ;
+	c2:QVG "Japan" ;
+	c2:E13 "2041"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "39.85"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "141.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Iwate" ;
+	c2:KK5 "Honshu-Japan" ;
+	c2:FAC "Complex volcano" .
+
+c1:173 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/321" ;
+	c2:QVG "Chile" ;
+	c2:E13 "5050"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-19.15"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-68.83"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Isluga" ;
+	c2:KK5 "Chile-N" ;
+	c2:FAC "Stratovolcano" .
+
+c1:174 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/320" ;
+	c2:QVG "Japan" ;
+	c2:E13 "-200.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "24.558"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "124.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Iriomote-jima" ;
+	c2:KK5 "Ryukyu Is" ;
+	c2:FAC "Submarine volcano" .
+
+c1:175 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/32" ;
+	c2:QVG "Russia" ;
+	c2:E13 "2882"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "55.978"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "160.587"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Bezymianny" ;
+	c2:KK5 "Kamchatka" ;
+	c2:FAC "Stratovolcano" .
+
+c1:176 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/319" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "1559"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-8.73"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "120.98"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Inielika" ;
+	c2:KK5 "Lesser Sunda Is" ;
+	c2:FAC "Complex volcano" .
+
+c1:177 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/318" ;
+	c2:QVG "Russia" ;
+	c2:E13 "1578"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "51.49"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "157.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Ilyinsky" ;
+	c2:KK5 "Kamchatka" ;
+	c2:FAC "Stratovolcano" .
+
+c1:178 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/317" ;
+	c2:QVG "United States" ;
+	c2:E13 "3053"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "60.03"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-153.08"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Iliamna" ;
+	c2:KK5 "Alaska-SW" ;
+	c2:FAC "Stratovolcano" .
+
+c1:179 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/316" ;
+	c2:QVG "Pacific Ocean" ;
+	c2:E13 "297"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-22.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "172.05"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Hunter Island" ;
+	c2:KK5 "SW Pacific" ;
+	c2:FAC "Stratovolcano" .
+
+c1:180 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/315" ;
+	c2:QVG "Chile" ;
+	c2:E13 "1318"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-42.377"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-72.578"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Huequi" ;
+	c2:KK5 "Chile-S" ;
+	c2:FAC "Stratovolcano" .
+
+c1:181 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/314" ;
+	c2:QVG "Philippines" ;
+	c2:E13 "1332"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "9.203"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "124.673"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Hibok-Hibok" ;
+	c2:KK5 "Mindanao-Philippines" ;
+	c2:FAC "Stratovolcano" .
+
+c1:182 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/313" ;
+	c2:QVG "Chile" ;
+	c2:E13 "6071"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-18.42"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-69.17"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Guallatiri" ;
+	c2:KK5 "Chile-N" ;
+	c2:FAC "Stratovolcano" .
+
+c1:183 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/312" ;
+	c2:QVG "Russia" ;
+	c2:E13 "891"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "46.83"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "151.75"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Goriaschaia Sopka" ;
+	c2:KK5 "Kuril Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:184 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/311" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "2885"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "4.813"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "96.82"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Geureudong" ;
+	c2:KK5 "Sumatra" ;
+	c2:FAC "Stratovolcano" .
+
+c1:185 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/310" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "2958"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-6.78"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "106.98"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Gede" ;
+	c2:KK5 "Java" ;
+	c2:FAC "Stratovolcano" .
+
+c1:186 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/31" ;
+	c2:QVG "Japan" ;
+	c2:E13 "10"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "31.92"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "139.92"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Bayonnaise Rocks" ;
+	c2:KK5 "Izu Is-Japan" ;
+	c2:FAC "Submarine volcano" .
+
+c1:187 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/309" ;
+	c2:QVG "Tonga" ;
+	c2:E13 "200"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-18.02"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-174.325"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Fonualei" ;
+	c2:KK5 "Tonga-SW Pacific" ;
+	c2:FAC "Stratovolcano" .
+
+c1:188 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/308" ;
+	c2:QVG "Portugal" ;
+	c2:E13 "1043"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "38.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-28.73"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Fayal" ;
+	c2:KK5 "Azores" ;
+	c2:FAC "Stratovolcano" .
+
+c1:189 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/307" ;
+	c2:QVG "Tonga" ;
+	c2:E13 "-17.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "-20.32"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-175.42"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Falcon Island" ;
+	c2:KK5 "Tonga-SW Pacific" ;
+	c2:FAC "Submarine volcano" .
+
+c1:190 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/306" ;
+	c2:QVG "Iceland" ;
+	c2:E13 "1760"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "64.27"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-16.65"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Esjufjoll" ;
+	c2:KK5 "Iceland-SE" ;
+	c2:FAC "Stratovolcano" .
+
+c1:191 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/305" ;
+	c2:QVG "Kenya" ;
+	c2:E13 "1328"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "1.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "36.33"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Emuruangogolak" ;
+	c2:KK5 "Africa-E" ;
+	c2:FAC "Shield volcano" .
+
+c1:192 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/304" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "1703"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-8.67"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "122.45"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Egon" ;
+	c2:KK5 "Lesser Sunda Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:193 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/303" ;
+	c2:QVG "Colombia" ;
+	c2:E13 "4150"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "1.47"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-76.92"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Dona Juana" ;
+	c2:KK5 "Colombia" ;
+	c2:FAC "Stratovolcano" .
+
+c1:194 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/302" ;
+	c2:QVG "Yemen" ;
+	c2:E13 "3500"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "14.57"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "44.67"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Dhamar, Harras of" ;
+	c2:KK5 "Arabia-S" ;
+	c2:FAC "Volcanic field" .
+
+c1:195 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/301" ;
+	c2:QVG "Chile" ;
+	c2:E13 "3953"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-35.58"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-70.75"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Descabezado Grande" ;
+	c2:KK5 "Chile-C" ;
+	c2:FAC "Stratovolcano" .
+
+c1:196 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/300" ;
+	c2:QVG "Ethiopia" ;
+	c2:E13 "-48.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "14.242"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "40.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Dallol" ;
+	c2:KK5 "Africa-NE" ;
+	c2:FAC "Explosion crater" .
+
+c1:197 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/30" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "1717"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-8.242"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "115.375"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Batur" ;
+	c2:KK5 "Lesser Sunda Is" ;
+	c2:FAC "Caldera" .
+
+c1:198 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/3" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "3142"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-8.342"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "115.508"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Agung" ;
+	c2:KK5 "Lesser Sunda Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:199 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/299" ;
+	c2:QVG "Colombia" ;
+	c2:E13 "4764"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "0.98"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-77.88"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Cumbal" ;
+	c2:KK5 "Colombia" ;
+	c2:FAC "Stratovolcano" .
+
+c1:200 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/298" ;
+	c2:QVG "Ecuador" ;
+	c2:E13 "5911"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "..677E-1" ;
+	c2:UM8 "-78.436"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Cotopaxi" ;
+	c2:KK5 "Ecuador" ;
+	c2:FAC "Stratovolcano" .
+
+c1:201 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/297" ;
+	c2:QVG "Chile" ;
+	c2:E13 "1798"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-40.52"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-72.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Cordon Caulle" ;
+	c2:KK5 "Chile-C" ;
+	c2:FAC "Fissure vent" .
+
+c1:202 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/296" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "3078"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-6.892"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "108.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Cereme" ;
+	c2:KK5 "Java" ;
+	c2:FAC "Stratovolcano" .
+
+c1:203 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/295" ;
+	c2:QVG "Vietnam" ;
+	c2:E13 "-20.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "10.158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "109.014"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Cendres, Ile des" ;
+	c2:KK5 "SE Asia" ;
+	c2:FAC "Submarine volcanoes" .
+
+c1:204 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/294" ;
+	c2:QVG "Antarctica" ;
+	c2:E13 "550"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-57.08"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-26.67"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Candlemas Island" ;
+	c2:KK5 "Antarctica" ;
+	c2:FAC "Stratovolcano" .
+
+c1:205 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/293" ;
+	c2:QVG "Chile" ;
+	c2:E13 "2003"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-41.326"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-72.614"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Calbuco" ;
+	c2:KK5 "Chile-S" ;
+	c2:FAC "Stratovolcano" .
+
+c1:206 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/292" ;
+	c2:QVG "Chile" ;
+	c2:E13 "1758"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-52.33"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-73.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Burney, Monte" ;
+	c2:KK5 "Chile-S" ;
+	c2:FAC "Stratovolcano" .
+
+c1:207 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/291" ;
+	c2:QVG "Antarctica" ;
+	c2:E13 "1100"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-59.03"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-26.58"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Bristol Island" ;
+	c2:KK5 "Antarctica" ;
+	c2:FAC "Stratovolcano" .
+
+c1:208 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/290" ;
+	c2:QVG "Philippines" ;
+	c2:E13 "1187"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "11.523"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "124.534"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Biliran" ;
+	c2:KK5 "Philippines-C" ;
+	c2:FAC "Compound volcano" .
+
+c1:209 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/29" ;
+	c2:QVG "India" ;
+	c2:E13 "354"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "12.292"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "93.875"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Barren Island" ;
+	c2:KK5 "Andaman Is-Indian O" ;
+	c2:FAC "Stratovolcano" .
+
+c1:210 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/289" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "1899"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-4.43"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "103.67"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Besar" ;
+	c2:KK5 "Sumatra" ;
+	c2:FAC "Stratovolcano" .
+
+c1:211 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/288" ;
+	c2:QVG "Kenya" ;
+	c2:E13 "1032"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "2.32"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "36.57"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Barrier, The" ;
+	c2:KK5 "Africa-E" ;
+	c2:FAC "Shield volcano" .
+
+c1:212 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/287" ;
+	c2:QVG "Iceland" ;
+	c2:E13 "2000"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "64.63"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-17.53"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Bardarbunga" ;
+	c2:KK5 "Iceland-NE" ;
+	c2:FAC "Stratovolcano" .
+
+c1:213 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/286" ;
+	c2:QVG "Mexico" ;
+	c2:E13 "332"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "19.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-110.82"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Barcena" ;
+	c2:KK5 "Mexico-Is" ;
+	c2:FAC "Cinder cone" .
+
+c1:214 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/285" ;
+	c2:QVG "Russia" ;
+	c2:E13 "1132"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "45.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "148.02"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Baransky" ;
+	c2:KK5 "Kuril Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:215 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/284" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "-5.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "3.138"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "125.491"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Banua Wuhu" ;
+	c2:KK5 "Sangihe Is-Indonesia" ;
+	c2:FAC "Submarine volcano" .
+
+c1:216 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/283" ;
+	c2:QVG "Papua New Guinea" ;
+	c2:E13 "685"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-3.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "144.85"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Bam" ;
+	c2:KK5 "New Guinea-NE of" ;
+	c2:FAC "Stratovolcano" .
+
+c1:217 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/282" ;
+	c2:QVG "Philippines" ;
+	c2:E13 "1180"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "19.523"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "121.94"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Babuyan Claro" ;
+	c2:KK5 "Luzon-N of" ;
+	c2:FAC "Stratovolcano" .
+
+c1:218 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/281" ;
+	c2:QVG "Russia" ;
+	c2:E13 "1205"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "44.804"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "147.13"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Atsonupuri" ;
+	c2:KK5 "Kuril Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:219 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/280" ;
+	c2:QVG "United States" ;
+	c2:E13 "857"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "19.67"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "145.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Asuncion" ;
+	c2:KK5 "Mariana Is-C Pacific" ;
+	c2:FAC "Stratovolcano" .
+
+c1:220 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/28" ;
+	c2:QVG "Pacific Ocean" ;
+	c2:E13 "640"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-4.525"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "129.871"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Banda Api" ;
+	c2:KK5 "Banda Sea" ;
+	c2:FAC "Caldera" .
+
+c1:221 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/279" ;
+	c2:QVG "Iceland" ;
+	c2:E13 "1516"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "65.03"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-16.75"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Askja" ;
+	c2:KK5 "Iceland-NE" ;
+	c2:FAC "Stratovolcano" .
+
+c1:222 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/278" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "3339"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-7.725"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "112.58"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Arjuno-Welirang" ;
+	c2:KK5 "Java" ;
+	c2:FAC "Stratovolcano" .
+
+c1:223 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/277" ;
+	c2:QVG "United States" ;
+	c2:E13 "1341"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "56.88"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-158.17"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Aniakchak" ;
+	c2:KK5 "Alaska Peninsula" ;
+	c2:FAC "Caldera" .
+
+c1:224 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/276" ;
+	c2:QVG "Ethiopia" ;
+	c2:E13 "1501"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "12.88"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "40.57"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Alayta" ;
+	c2:KK5 "Africa-NE" ;
+	c2:FAC "Shield volcano" .
+
+c1:225 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/275" ;
+	c2:QVG "United States" ;
+	c2:E13 "965"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "18.77"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "145.67"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Agrigan" ;
+	c2:KK5 "Mariana Is-C Pacific" ;
+	c2:FAC "Stratovolcano" .
+
+c1:226 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/274" ;
+	c2:QVG "Russia" ;
+	c2:E13 "1953"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "51.57"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "157.323"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Zheltovsky" ;
+	c2:KK5 "Kamchatka" ;
+	c2:FAC "Stratovolcano" .
+
+c1:227 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/273" ;
+	c2:QVG "Vanuatu" ;
+	c2:E13 "361"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-19.52"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "169.425"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Yasur" ;
+	c2:KK5 "Vanuatu-SW Pacific" ;
+	c2:FAC "Stratovolcano" .
+
+c1:228 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/272" ;
+	c2:QVG "Japan" ;
+	c2:E13 "2455"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "36.22"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "137.58"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Yake-dake" ;
+	c2:KK5 "Honshu-Japan" ;
+	c2:FAC "Stratovolcano" .
+
+c1:229 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/271" ;
+	c2:QVG "Ecuador" ;
+	c2:E13 "1710"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "0.02"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-91.35"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Wolf, Volcan" ;
+	c2:KK5 "Galapagos" ;
+	c2:FAC "Shield volcano" .
+
+c1:230 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/270" ;
+	c2:QVG "New Zealand" ;
+	c2:E13 "321"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-37.52"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "177.18"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "White Island" ;
+	c2:KK5 "New Zealand" ;
+	c2:FAC "Stratovolcano" .
+
+c1:231 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/27" ;
+	c2:QVG "Papua New Guinea" ;
+	c2:E13 "1750"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-6.14"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "155.195"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Bagana" ;
+	c2:KK5 "Bougainville-SW Paci" ;
+	c2:FAC "Lava cone" .
+
+c1:232 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/269" ;
+	c2:QVG "United States" ;
+	c2:E13 "1654"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "54.52"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-164.65"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Westdahl" ;
+	c2:KK5 "Aleutian Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:233 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/268" ;
+	c2:QVG "Chile" ;
+	c2:E13 "2847"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-39.42"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-71.93"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Villarrica" ;
+	c2:KK5 "Chile-C" ;
+	c2:FAC "Stratovolcano" .
+
+c1:234 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/267" ;
+	c2:QVG "Argentina" ;
+	c2:E13 "1300"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-49.358"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-73.28"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Viedma, Volcan" ;
+	c2:KK5 "Argentina" ;
+	c2:FAC "Subglacial volcano" .
+
+c1:235 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/266" ;
+	c2:QVG "Iceland" ;
+	c2:E13 "279"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "63.43"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-20.28"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Vestmannaeyjar" ;
+	c2:KK5 "Iceland-S" ;
+	c2:FAC "Submarine volcano" .
+
+c1:236 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/265" ;
+	c2:QVG "United States" ;
+	c2:E13 "2507"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "56.17"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-159.38"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Veniaminof" ;
+	c2:KK5 "Alaska Peninsula" ;
+	c2:FAC "Stratovolcano" .
+
+c1:237 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/264" ;
+	c2:QVG "Japan" ;
+	c2:E13 "731"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "42.53"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "140.83"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Usu" ;
+	c2:KK5 "Hokkaido-Japan" ;
+	c2:FAC "Stratovolcano" .
+
+c1:238 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/263" ;
+	c2:QVG "Japan" ;
+	c2:E13 "1500"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "32.75"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "130.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Unzen" ;
+	c2:KK5 "Kyushu-Japan" ;
+	c2:FAC "Complex volcano" .
+
+c1:239 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/262" ;
+	c2:QVG "United States" ;
+	c2:E13 "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "52.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-173.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Unnamed" ;
+	c2:KK5 "Aleutian Is" ;
+	c2:FAC "Submarine volcano" .
+
+c1:240 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/261" ;
+	c2:QVG "Pacific Ocean" ;
+	c2:E13 "-2566.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "-17.436"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-113.206"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Unnamed" ;
+	c2:KK5 "Pacific-E" ;
+	c2:FAC "Submarine volcano" .
+
+c1:241 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/260" ;
+	c2:QVG "Pacific Ocean" ;
+	c2:E13 "-2400.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "-25.78"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "168.63"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Unnamed" ;
+	c2:KK5 "SW Pacific" ;
+	c2:FAC "Submarine volcano" .
+
+c1:242 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/26" ;
+	c2:QVG "Japan" ;
+	c2:E13 "2024"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "37.73"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "140.25"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Azuma" ;
+	c2:KK5 "Honshu-Japan" ;
+	c2:FAC "Stratovolcano" .
+
+c1:243 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/259" ;
+	c2:QVG "Pacific Ocean" ;
+	c2:E13 "-2500.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "9.82"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-104.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Unnamed" ;
+	c2:KK5 "Pacific-E" ;
+	c2:FAC "Submarine volcano" .
+
+c1:244 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/258" ;
+	c2:QVG "Tonga" ;
+	c2:E13 "-13.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "-20.85"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-175.53"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Unnamed" ;
+	c2:KK5 "Tonga-SW Pacific" ;
+	c2:FAC "Submarine volcano" .
+
+c1:245 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/257" ;
+	c2:QVG "United States" ;
+	c2:E13 "-1300.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "-3.03"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "147.78"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Unnamed" ;
+	c2:KK5 "Admiralty Is-SW Paci" ;
+	c2:FAC "Submarine volcano" .
+
+c1:246 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/256" ;
+	c2:QVG "Russia" ;
+	c2:E13 "-502.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "46.47"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "151.28"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Unnamed" ;
+	c2:KK5 "Kuril Is" ;
+	c2:FAC "Submarine volcano" .
+
+c1:247 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/255" ;
+	c2:QVG "Papua New Guinea" ;
+	c2:E13 "2334"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-5.05"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "151.33"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Ulawun" ;
+	c2:KK5 "New Britain-SW Pac" ;
+	c2:FAC "Stratovolcano" .
+
+c1:248 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/254" ;
+	c2:QVG "United States" ;
+	c2:E13 "91"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "57.83"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-156.52"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Ukinrek Maars" ;
+	c2:KK5 "Alaska Peninsula" ;
+	c2:FAC "Maar" .
+
+c1:249 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/253" ;
+	c2:QVG "Peru" ;
+	c2:E13 "5672"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-16.355"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-70.903"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Ubinas" ;
+	c2:KK5 "Peru" ;
+	c2:FAC "Stratovolcano" .
+
+c1:250 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/252" ;
+	c2:QVG "Chile" ;
+	c2:E13 "6000"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-33.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-69.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Tupungatito" ;
+	c2:KK5 "Chile-C" ;
+	c2:FAC "Stratovolcano" .
+
+c1:251 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/251" ;
+	c2:QVG "Ecuador" ;
+	c2:E13 "5023"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-1.467"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-78.442"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Tungurahua" ;
+	c2:KK5 "Ecuador" ;
+	c2:FAC "Stratovolcano" .
+
+c1:252 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/250" ;
+	c2:QVG "United States" ;
+	c2:E13 "1864"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "58.23"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-155.08"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Trident" ;
+	c2:KK5 "Alaska Peninsula" ;
+	c2:FAC "Stratovolcano" .
+
+c1:253 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/25" ;
+	c2:QVG "Chile" ;
+	c2:E13 "3788"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-35.653"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-70.761"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Azul, Cerro [Quizapu]" ;
+	c2:KK5 "Chile-C" ;
+	c2:FAC "Stratovolcano" .
+
+c1:254 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/249" ;
+	c2:QVG "Japan" ;
+	c2:E13 "403"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "30.48"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "140.32"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Tori-shima" ;
+	c2:KK5 "Izu Is-Japan" ;
+	c2:FAC "Stratovolcano" .
+
+c1:255 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/248" ;
+	c2:QVG "New Zealand" ;
+	c2:E13 "1978"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-39.13"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "175.642"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Tongariro" ;
+	c2:KK5 "New Zealand" ;
+	c2:FAC "Stratovolcano" .
+
+c1:256 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/247" ;
+	c2:QVG "Russia" ;
+	c2:E13 "3682"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "55.83"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "160.33"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Tolbachik" ;
+	c2:KK5 "Kamchatka" ;
+	c2:FAC "Shield volcano" .
+
+c1:257 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/246" ;
+	c2:QVG "Japan" ;
+	c2:E13 "2077"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "43.42"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "142.68"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Tokachi" ;
+	c2:KK5 "Hokkaido-Japan" ;
+	c2:FAC "Stratovolcano" .
+
+c1:258 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/245" ;
+	c2:QVG "Solomon Is." ;
+	c2:E13 "851"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-10.38"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "165.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Tinakula" ;
+	c2:KK5 "Santa Cruz Is-SW Pac" ;
+	c2:FAC "Stratovolcano" .
+
+c1:259 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/244" ;
+	c2:QVG "Russia" ;
+	c2:E13 "1819"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "44.358"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "146.27"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Tiatia" ;
+	c2:KK5 "Kuril Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:260 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/243" ;
+	c2:QVG "Antarctica" ;
+	c2:E13 "1075"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-59.45"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-27.37"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Thule Islands" ;
+	c2:KK5 "Antarctica" ;
+	c2:FAC "Stratovolcano" .
+
+c1:261 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/242" ;
+	c2:QVG "Portugal" ;
+	c2:E13 "1023"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "38.73"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-27.32"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Terceira" ;
+	c2:KK5 "Azores" ;
+	c2:FAC "Stratovolcano" .
+
+c1:262 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/241" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "2329"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-7.942"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "112.95"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Tengger Caldera" ;
+	c2:KK5 "Java" ;
+	c2:FAC "Stratovolcano" .
+
+c1:263 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/240" ;
+	c2:QVG "Nicaragua" ;
+	c2:E13 "1061"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "12.602"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-86.845"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Telica" ;
+	c2:KK5 "Nicaragua" ;
+	c2:FAC "Stratovolcano" .
+
+c1:264 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/24" ;
+	c2:QVG "Ecuador" ;
+	c2:E13 "1690"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "..9E-1" ;
+	c2:UM8 "-91.42"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Azul, Cerro" ;
+	c2:KK5 "Galapagos" ;
+	c2:FAC "Shield volcano" .
+
+c1:265 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/239" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "2084"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-6.77"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "107.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Tangkubanparahu" ;
+	c2:KK5 "Java" ;
+	c2:FAC "Stratovolcano" .
+
+c1:266 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/238" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "2850"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-8.25"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "118.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Tambora" ;
+	c2:KK5 "Lesser Sunda Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:267 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/237" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "2597"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "..978E-1" ;
+	c2:UM8 "100.679"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Talang" ;
+	c2:KK5 "Sumatra" ;
+	c2:FAC "Stratovolcano" .
+
+c1:268 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/236" ;
+	c2:QVG "Mexico" ;
+	c2:E13 "4110"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "15.13"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-92.112"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Tacana" ;
+	c2:KK5 "Mexico" ;
+	c2:FAC "Stratovolcano" .
+
+c1:269 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/235" ;
+	c2:QVG "Philippines" ;
+	c2:E13 "400"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "14.002"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "120.993"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Taal" ;
+	c2:KK5 "Luzon-Philippines" ;
+	c2:FAC "Stratovolcano" .
+
+c1:270 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/234" ;
+	c2:QVG "Japan" ;
+	c2:E13 "799"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "29.53"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "129.72"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Suwanose-jima" ;
+	c2:KK5 "Ryukyu Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:271 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/233" ;
+	c2:QVG "Vanuatu" ;
+	c2:E13 "921"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-13.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "167.47"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Suretamatai" ;
+	c2:KK5 "Vanuatu-SW Pacific" ;
+	c2:FAC "Complex volcano" .
+
+c1:272 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/232" ;
+	c2:QVG "United States" ;
+	c2:E13 "-8.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "20.13"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "145.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Supply Reef" ;
+	c2:KK5 "Mariana Is-C Pacific" ;
+	c2:FAC "Submarine volcano" .
+
+c1:273 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/231" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "3136"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-7.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "109.992"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Sundoro" ;
+	c2:KK5 "Java" ;
+	c2:FAC "Stratovolcano" .
+
+c1:274 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/230" ;
+	c2:QVG "Italy" ;
+	c2:E13 "926"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "38.789"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "15.213"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Stromboli" ;
+	c2:KK5 "Italy" ;
+	c2:FAC "Stratovolcano" .
+
+c1:275 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/23" ;
+	c2:QVG "Pacific Ocean" ;
+	c2:E13 "-1500.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "45.95"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-130.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Axial Seamount" ;
+	c2:KK5 "Pacific-NE" ;
+	c2:FAC "Submarine volcano" .
+
+c1:276 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/229" ;
+	c2:QVG "United States" ;
+	c2:E13 "2549"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "46.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-122.18"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "St. Helens" ;
+	c2:KK5 "US-Washington" ;
+	c2:FAC "Stratovolcano" .
+
+c1:277 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/228" ;
+	c2:QVG "United States" ;
+	c2:E13 "3374"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "61.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-152.25"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Spurr" ;
+	c2:KK5 "Alaska-SW" ;
+	c2:FAC "Stratovolcano" .
+
+c1:278 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/227" ;
+	c2:QVG "St. Vincent & the Grenadines" ;
+	c2:E13 "1220"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "13.33"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-61.18"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Soufriere St. Vincent" ;
+	c2:KK5 "W Indies" ;
+	c2:FAC "Stratovolcano" .
+
+c1:279 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/226" ;
+	c2:QVG "Montserrat" ;
+	c2:E13 "915"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "16.72"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-62.18"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Soufriere Hills" ;
+	c2:KK5 "W Indies" ;
+	c2:FAC "Stratovolcano" .
+
+c1:280 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/225" ;
+	c2:QVG "Guadeloupe" ;
+	c2:E13 "1467"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "16.05"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-61.67"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Soufriere Guadeloupe" ;
+	c2:KK5 "W Indies" ;
+	c2:FAC "Stratovolcano" .
+
+c1:281 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/224" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "2145"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "0.686"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "99.539"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Sorikmarapi" ;
+	c2:KK5 "Sumatra" ;
+	c2:FAC "Stratovolcano" .
+
+c1:282 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/223" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "1784"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "1.108"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "124.725"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Soputan" ;
+	c2:KK5 "Sulawesi-Indonesia" ;
+	c2:FAC "Stratovolcano" .
+
+c1:283 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/222" ;
+	c2:QVG "Mexico" ;
+	c2:E13 "1050"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "18.78"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-110.95"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Socorro" ;
+	c2:KK5 "Mexico-Is" ;
+	c2:FAC "Shield volcano" .
+
+c1:284 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/221" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "3432"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-7.242"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "109.208"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Slamet" ;
+	c2:KK5 "Java" ;
+	c2:FAC "Stratovolcano" .
+
+c1:285 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/220" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "862"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-8.51"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "124.148"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Sirung" ;
+	c2:KK5 "Lesser Sunda Is" ;
+	c2:FAC "Complex volcano" .
+
+c1:286 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/22" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "1320"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "3.67"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "125.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Awu" ;
+	c2:KK5 "Sangihe Is-Indonesia" ;
+	c2:FAC "Stratovolcano" .
+
+c1:287 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/219" ;
+	c2:QVG "Russia" ;
+	c2:E13 "3283"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "56.653"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "161.36"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Shiveluch" ;
+	c2:KK5 "Kamchatka" ;
+	c2:FAC "Stratovolcano" .
+
+c1:288 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/218" ;
+	c2:QVG "United States" ;
+	c2:E13 "2857"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "54.75"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-163.97"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Shishaldin" ;
+	c2:KK5 "Aleutian Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:289 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/217" ;
+	c2:QVG "Japan" ;
+	c2:E13 "1320"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "42.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "141.33"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Shikotsu" ;
+	c2:KK5 "Hokkaido-Japan" ;
+	c2:FAC "Caldera" .
+
+c1:290 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/216" ;
+	c2:QVG "United States" ;
+	c2:E13 "1221"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "51.95"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "179.62"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Semisopochnoi" ;
+	c2:KK5 "Aleutian Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:291 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/215" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "3676"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-8.108"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "112.92"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Semeru" ;
+	c2:KK5 "Java" ;
+	c2:FAC "Stratovolcano" .
+
+c1:292 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/214" ;
+	c2:QVG "United States" ;
+	c2:E13 "1054"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "52.32"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-172.52"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Seguam" ;
+	c2:KK5 "Aleutian Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:293 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/213" ;
+	c2:QVG "Russia" ;
+	c2:E13 "1496"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "48.092"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "153.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Sarychev Peak" ;
+	c2:KK5 "Kuril Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:294 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/212" ;
+	c2:QVG "Guatemala" ;
+	c2:E13 "3772"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "14.756"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-91.552"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Santa Maria" ;
+	c2:KK5 "Guatemala" ;
+	c2:FAC "Stratovolcano" .
+
+c1:295 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/211" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "1949"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-8.18"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "119.058"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Sangeang Api" ;
+	c2:KK5 "Lesser Sunda Is" ;
+	c2:FAC "Complex volcano" .
+
+c1:296 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/210" ;
+	c2:QVG "Ecuador" ;
+	c2:E13 "5230"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-2.03"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-78.33"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Sangay" ;
+	c2:KK5 "Ecuador" ;
+	c2:FAC "Stratovolcano" .
+
+c1:297 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/21" ;
+	c2:QVG "Russia" ;
+	c2:E13 "2741"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "53.255"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "158.83"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Avachinsky" ;
+	c2:KK5 "Kamchatka" ;
+	c2:FAC "Stratovolcano" .
+
+c1:298 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/209" ;
+	c2:QVG "El Salvador" ;
+	c2:E13 "2130"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "13.431"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-88.272"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "San Miguel" ;
+	c2:KK5 "El Salvador" ;
+	c2:FAC "Stratovolcano" .
+
+c1:299 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/208" ;
+	c2:QVG "Nicaragua" ;
+	c2:E13 "1745"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "12.702"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-87.004"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "San Cristobal" ;
+	c2:KK5 "Nicaragua" ;
+	c2:FAC "Stratovolcano" .
+
+c1:300 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/207" ;
+	c2:QVG "Japan" ;
+	c2:E13 "1117"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "31.58"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "130.67"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Sakura-jima" ;
+	c2:KK5 "Kyushu-Japan" ;
+	c2:FAC "Stratovolcano" .
+
+c1:301 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/206" ;
+	c2:QVG "Peru" ;
+	c2:E13 "5967"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-15.78"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-71.85"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Sabancaya" ;
+	c2:KK5 "Peru" ;
+	c2:FAC "Stratovolcano" .
+
+c1:302 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/205" ;
+	c2:QVG "New Zealand" ;
+	c2:E13 "-140.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "-35.745"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "178.478"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Rumble III" ;
+	c2:KK5 "New Zealand" ;
+	c2:FAC "Submarine volcano" .
+
+c1:303 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/204" ;
+	c2:QVG "Colombia" ;
+	c2:E13 "5321"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "4.895"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-75.322"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Ruiz" ;
+	c2:KK5 "Colombia" ;
+	c2:FAC "Stratovolcano" .
+
+c1:304 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/203" ;
+	c2:QVG "United States" ;
+	c2:E13 "-230.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "15.62"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "145.57"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Ruby" ;
+	c2:KK5 "Mariana Is-C Pacific" ;
+	c2:FAC "Submarine volcano" .
+
+c1:305 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/202" ;
+	c2:QVG "New Zealand" ;
+	c2:E13 "2797"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-39.28"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "175.57"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Ruapehu" ;
+	c2:KK5 "New Zealand" ;
+	c2:FAC "Stratovolcano" .
+
+c1:306 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/201" ;
+	c2:QVG "Papua New Guinea" ;
+	c2:E13 "140"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-5.52"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "148.121"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Ritter Island" ;
+	c2:KK5 "New Guinea-NE of" ;
+	c2:FAC "Stratovolcano" .
+
+c1:307 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/200" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "3726"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-8.42"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "116.47"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Rinjani" ;
+	c2:KK5 "Lesser Sunda Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:308 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/20" ;
+	c2:QVG "United States" ;
+	c2:E13 "1252"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "59.37"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-153.42"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Augustine" ;
+	c2:KK5 "Alaska-SW" ;
+	c2:FAC "Lava dome" .
+
+c1:309 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/2" ;
+	c2:QVG "Japan" ;
+	c2:E13 "1718"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "37.62"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "140.28"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Adatara" ;
+	c2:KK5 "Honshu-Japan" ;
+	c2:FAC "Stratovolcano" .
+
+c1:310 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/199" ;
+	c2:QVG "Costa Rica" ;
+	c2:E13 "1916"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "10.83"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-85.324"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Rincon de la Vieja" ;
+	c2:KK5 "Costa Rica" ;
+	c2:FAC "Complex volcano" .
+
+c1:311 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/198" ;
+	c2:QVG "Iceland" ;
+	c2:E13 "80"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "63.67"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-23.33"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Reykjaneshryggur" ;
+	c2:KK5 "Iceland-SW" ;
+	c2:FAC "Submarine volcanoes" .
+
+c1:312 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/197" ;
+	c2:QVG "Ecuador" ;
+	c2:E13 "3562"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "..078E-1" ;
+	c2:UM8 "-77.656"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Reventador" ;
+	c2:KK5 "Ecuador" ;
+	c2:FAC "Stratovolcano" .
+
+c1:313 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/196" ;
+	c2:QVG "United States" ;
+	c2:E13 "3108"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "60.48"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-152.75"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Redoubt" ;
+	c2:KK5 "Alaska-SW" ;
+	c2:FAC "Stratovolcano" .
+
+c1:314 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/195" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "3332"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-8.125"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "114.042"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Raung" ;
+	c2:KK5 "Java" ;
+	c2:FAC "Stratovolcano" .
+
+c1:315 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/194" ;
+	c2:QVG "New Zealand" ;
+	c2:E13 "516"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-29.27"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-177.92"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Raoul Island" ;
+	c2:KK5 "Kermadec Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:316 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/193" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "2100"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-8.62"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "120.52"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Ranakah" ;
+	c2:KK5 "Lesser Sunda Is" ;
+	c2:FAC "Lava dome" .
+
+c1:317 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/192" ;
+	c2:QVG "Papua New Guinea" ;
+	c2:E13 "688"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-4.271"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "152.203"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Rabaul" ;
+	c2:KK5 "New Britain-SW Pac" ;
+	c2:FAC "Pyroclastic shield" .
+
+c1:318 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/191" ;
+	c2:QVG "Chile" ;
+	c2:E13 "5890"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-22.57"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-67.87"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Putana" ;
+	c2:KK5 "Chile-N" ;
+	c2:FAC "Stratovolcano" .
+
+c1:319 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/190" ;
+	c2:QVG "Colombia" ;
+	c2:E13 "4650"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "2.32"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-76.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Purace" ;
+	c2:KK5 "Colombia" ;
+	c2:FAC "Stratovolcano" .
+
+c1:320 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/19" ;
+	c2:QVG "United States" ;
+	c2:E13 "1533"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "52.38"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-174.15"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Atka" ;
+	c2:KK5 "Aleutian Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:321 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/189" ;
+	c2:QVG "Mexico" ;
+	c2:E13 "5426"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "19.023"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-98.622"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Popocatepetl" ;
+	c2:KK5 "Mexico" ;
+	c2:FAC "Stratovolcano" .
+
+c1:322 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/188" ;
+	c2:QVG "Costa Rica" ;
+	c2:E13 "2708"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "10.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-84.233"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Poas" ;
+	c2:KK5 "Costa Rica" ;
+	c2:FAC "Stratovolcano" .
+
+c1:323 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/187" ;
+	c2:QVG "Chile" ;
+	c2:E13 "4107"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-35.24"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-70.57"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Planchon-Peteroa" ;
+	c2:KK5 "Chile-C" ;
+	c2:FAC "Caldera" .
+
+c1:324 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/186" ;
+	c2:QVG "Trinidad" ;
+	c2:E13 "140"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "10.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-61.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Piparo" ;
+	c2:KK5 "Trinidad" ;
+	c2:FAC "Mud volcano" .
+
+c1:325 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/185" ;
+	c2:QVG "Philippines" ;
+	c2:E13 "1486"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "15.13"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "120.35"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Pinatubo" ;
+	c2:KK5 "Luzon-Philippines" ;
+	c2:FAC "Stratovolcano" .
+
+c1:326 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/184" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "2801"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "4.914"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "96.329"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Peuet Sague" ;
+	c2:KK5 "Sumatra" ;
+	c2:FAC "Complex volcano" .
+
+c1:327 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/183" ;
+	c2:QVG "United States" ;
+	c2:E13 "2519"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "55.42"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-161.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Pavlof" ;
+	c2:KK5 "Alaska Peninsula" ;
+	c2:FAC "Stratovolcano" .
+
+c1:328 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/182" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "875"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-8.32"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "121.708"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Paluweh" ;
+	c2:KK5 "Lesser Sunda Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:329 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/181" ;
+	c2:QVG "United States" ;
+	c2:E13 "570"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "18.13"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "145.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Pagan" ;
+	c2:KK5 "Mariana Is-C Pacific" ;
+	c2:FAC "Stratovolcano" .
+
+c1:330 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/180" ;
+	c2:QVG "Guatemala" ;
+	c2:E13 "2552"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "14.381"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-90.601"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Pacaya" ;
+	c2:KK5 "Guatemala" ;
+	c2:FAC "Complex volcano" .
+
+c1:331 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/18" ;
+	c2:QVG "Japan" ;
+	c2:E13 "1592"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "32.88"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "131.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Aso" ;
+	c2:KK5 "Kyushu-Japan" ;
+	c2:FAC "Caldera" .
+
+c1:332 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/179" ;
+	c2:QVG "Japan" ;
+	c2:E13 "758"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "34.73"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "139.38"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Oshima" ;
+	c2:KK5 "Izu Is-Japan" ;
+	c2:FAC "Stratovolcano" .
+
+c1:333 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/178" ;
+	c2:QVG "Japan" ;
+	c2:E13 "3063"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "35.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "137.48"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "On-take" ;
+	c2:KK5 "Honshu-Japan" ;
+	c2:FAC "Complex volcano" .
+
+c1:334 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/177" ;
+	c2:QVG "United States" ;
+	c2:E13 "1073"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "53.42"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-168.13"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Okmok" ;
+	c2:KK5 "Aleutian Is" ;
+	c2:FAC "Shield volcano" .
+
+c1:335 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/176" ;
+	c2:QVG "New Zealand" ;
+	c2:E13 "1111"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-38.12"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "176.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Okataina" ;
+	c2:KK5 "New Zealand" ;
+	c2:FAC "Lava dome" .
+
+c1:336 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/175" ;
+	c2:QVG "Congo, DRC" ;
+	c2:E13 "3470"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-1.52"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "29.25"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Nyiragongo" ;
+	c2:KK5 "Africa-C" ;
+	c2:FAC "Stratovolcano" .
+
+c1:337 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/174" ;
+	c2:QVG "Congo, DRC" ;
+	c2:E13 "3058"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-1.408"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "29.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Nyamuragira" ;
+	c2:KK5 "Africa-C" ;
+	c2:FAC "Shield volcano" .
+
+c1:338 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/173" ;
+	c2:QVG "Pacific Ocean" ;
+	c2:E13 "-3000.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "42.67"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-126.78"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "North Gorda Ridge" ;
+	c2:KK5 "Pacific-NE" ;
+	c2:FAC "Submarine volcano" .
+
+c1:339 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/172" ;
+	c2:QVG "Tonga" ;
+	c2:E13 "260"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-15.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-175.63"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Niuafo'ou" ;
+	c2:KK5 "Tonga-SW Pacific" ;
+	c2:FAC "Shield volcano" .
+
+c1:340 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/171" ;
+	c2:QVG "Japan" ;
+	c2:E13 "52"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "27.243"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "140.877"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Nishino-shima" ;
+	c2:KK5 "Volcano Is-Japan" ;
+	c2:FAC "Caldera" .
+
+c1:341 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/170" ;
+	c2:QVG "Pacific Ocean" ;
+	c2:E13 "781"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-6.73"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "129.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Nila" ;
+	c2:KK5 "Banda Sea" ;
+	c2:FAC "Stratovolcano" .
+
+c1:342 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/17" ;
+	c2:QVG "Japan" ;
+	c2:E13 "2560"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "36.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "138.53"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Asama" ;
+	c2:KK5 "Honshu-Japan" ;
+	c2:FAC "Complex volcano" .
+
+c1:343 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/169" ;
+	c2:QVG "Japan" ;
+	c2:E13 "2400"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "36.92"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "138.03"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Niigata-Yake-yama" ;
+	c2:KK5 "Honshu-Japan" ;
+	c2:FAC "Lava dome" .
+
+c1:344 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/168" ;
+	c2:QVG "New Zealand" ;
+	c2:E13 "2291"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-39.158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "175.63"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Ngauruhoe" ;
+	c2:KK5 "New Zealand" ;
+	c2:FAC "Stratovolcano" .
+
+c1:345 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/167" ;
+	c2:QVG "Nicaragua" ;
+	c2:E13 "728"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "12.506"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-86.702"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Negro, Cerro" ;
+	c2:KK5 "Nicaragua" ;
+	c2:FAC "Cinder cone" .
+
+c1:346 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/166" ;
+	c2:QVG "Ecuador" ;
+	c2:E13 "1490"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "..83E-1" ;
+	c2:UM8 "-91.17"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Negra, Sierra" ;
+	c2:KK5 "Galapagos" ;
+	c2:FAC "Shield volcano" .
+
+c1:347 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/165" ;
+	c2:QVG "Iceland" ;
+	c2:E13 "1491"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "63.98"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-19.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Mundafell" ;
+	c2:KK5 "Iceland-S" ;
+	c2:FAC "Stratovolcano" .
+
+c1:348 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/164" ;
+	c2:QVG "New Zealand" ;
+	c2:E13 "-100.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "-25.887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-177.188"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Monowai Seamount" ;
+	c2:KK5 "Kermadec Is" ;
+	c2:FAC "Submarine volcano" .
+
+c1:349 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/163" ;
+	c2:QVG "Japan" ;
+	c2:E13 "815"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "34.08"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "139.53"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Miyake-jima" ;
+	c2:KK5 "Izu Is-Japan" ;
+	c2:FAC "Stratovolcano" .
+
+c1:350 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/162" ;
+	c2:QVG "Japan" ;
+	c2:E13 "-30.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "23.507"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "141.905"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Minami-Hiyoshi" ;
+	c2:KK5 "Volcano Is-Japan" ;
+	c2:FAC "Submarine volcano" .
+
+c1:351 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/161" ;
+	c2:QVG "Tonga" ;
+	c2:E13 "43"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-19.18"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-174.87"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Metis Shoal" ;
+	c2:KK5 "Tonga-SW Pacific" ;
+	c2:FAC "Submarine volcano" .
+
+c1:352 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/160" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "2947"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-7.542"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "110.442"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Merapi" ;
+	c2:KK5 "Java" ;
+	c2:FAC "Stratovolcano" .
+
+c1:353 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/16" ;
+	c2:QVG "Costa Rica" ;
+	c2:E13 "1657"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "10.463"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-84.703"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Arenal" ;
+	c2:KK5 "Costa Rica" ;
+	c2:FAC "Stratovolcano" .
+
+c1:354 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/159" ;
+	c2:QVG "Russia" ;
+	c2:E13 "1124"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "45.38"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "148.83"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Medvezhia" ;
+	c2:KK5 "Kuril Is" ;
+	c2:FAC "Somma volcano" .
+
+c1:355 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/158" ;
+	c2:QVG "Indian Ocean" ;
+	c2:E13 "186"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-53.03"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "72.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "McDonald Islands" ;
+	c2:KK5 "Indian O-S" ;
+	c2:FAC "Complex volcano" .
+
+c1:356 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/157" ;
+	c2:QVG "Philippines" ;
+	c2:E13 "2462"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "13.257"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "123.685"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Mayon" ;
+	c2:KK5 "Luzon-Philippines" ;
+	c2:FAC "Stratovolcano" .
+
+c1:357 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/156" ;
+	c2:QVG "United States" ;
+	c2:E13 "4170"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "19.475"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-155.608"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Mauna Loa" ;
+	c2:KK5 "Hawaiian Is" ;
+	c2:FAC "Shield volcano" .
+
+c1:358 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/155" ;
+	c2:QVG "Nicaragua" ;
+	c2:E13 "635"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "11.984"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-86.161"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Masaya" ;
+	c2:KK5 "Nicaragua" ;
+	c2:FAC "Caldera" .
+
+c1:359 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/154" ;
+	c2:QVG "South Africa" ;
+	c2:E13 "1230"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-46.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "37.75"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Marion Island" ;
+	c2:KK5 "Indian O-S" ;
+	c2:FAC "Shield volcano" .
+
+c1:360 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/153" ;
+	c2:QVG "Ecuador" ;
+	c2:E13 "343"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "0.33"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-90.47"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Marchena" ;
+	c2:KK5 "Galapagos" ;
+	c2:FAC "Shield volcano" .
+
+c1:361 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/152" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "2891"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "..381E-1" ;
+	c2:UM8 "100.473"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Marapi" ;
+	c2:KK5 "Sumatra" ;
+	c2:FAC "Complex volcano" .
+
+c1:362 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/151" ;
+	c2:QVG "Papua New Guinea" ;
+	c2:E13 "1807"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-4.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "145.061"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Manam" ;
+	c2:KK5 "New Guinea-NE of" ;
+	c2:FAC "Stratovolcano" .
+
+c1:363 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/150" ;
+	c2:QVG "United States" ;
+	c2:E13 "2036"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "53.9"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-166.93"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Makushin" ;
+	c2:KK5 "Aleutian Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:364 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/15" ;
+	c2:QVG "Djibouti" ;
+	c2:E13 "298"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "11.58"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "42.47"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Ardoukoba" ;
+	c2:KK5 "Africa-NE" ;
+	c2:FAC "Fissure vent" .
+
+c1:365 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/149" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "1357"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "0.32"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "127.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Makian" ;
+	c2:KK5 "Halmahera-Indonesia" ;
+	c2:FAC "Stratovolcano" .
+
+c1:366 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/148" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "1324"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "1.358"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "124.858"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Mahawu" ;
+	c2:KK5 "Sulawesi-Indonesia" ;
+	c2:FAC "Stratovolcano" .
+
+c1:367 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/147" ;
+	c2:QVG "Antarctica" ;
+	c2:E13 "-50.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "-28.98"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-140.25"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Macdonald" ;
+	c2:KK5 "Austral Is-C Pacific" ;
+	c2:FAC "Submarine volcano" .
+
+c1:368 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/146" ;
+	c2:QVG "Vanuatu" ;
+	c2:E13 "1413"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-16.507"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "168.346"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Lopevi" ;
+	c2:KK5 "Vanuatu-SW Pacific" ;
+	c2:FAC "Stratovolcano" .
+
+c1:369 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/145" ;
+	c2:QVG "Chile" ;
+	c2:E13 "2865"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-38.377"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-71.58"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Lonquimay" ;
+	c2:KK5 "Chile-C" ;
+	c2:FAC "Stratovolcano" .
+
+c1:370 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/144" ;
+	c2:QVG "Papua New Guinea" ;
+	c2:E13 "1280"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-5.358"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "147.12"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Long Island" ;
+	c2:KK5 "New Guinea-NE of" ;
+	c2:FAC "Complex volcano" .
+
+c1:371 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/143" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "1580"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "1.358"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "124.792"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Lokon-Empung" ;
+	c2:KK5 "Sulawesi-Indonesia" ;
+	c2:FAC "Stratovolcano" .
+
+c1:372 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/142" ;
+	c2:QVG "United States" ;
+	c2:E13 "-975.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "18.92"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-155.27"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Loihi" ;
+	c2:KK5 "Hawaiian Is" ;
+	c2:FAC "Submarine volcano" .
+
+c1:373 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/141" ;
+	c2:QVG "Chile" ;
+	c2:E13 "3125"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-38.692"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-71.729"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Llaima" ;
+	c2:KK5 "Chile-C" ;
+	c2:FAC "Stratovolcano" .
+
+c1:374 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/140" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "1703"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-8.575"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "122.78"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Lewotobi Perempuan" ;
+	c2:KK5 "Lesser Sunda Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:375 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/14" ;
+	c2:QVG "Argentina" ;
+	c2:E13 "6082"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-24.27"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-67.77"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Aracar" ;
+	c2:KK5 "Argentina" ;
+	c2:FAC "Stratovolcano" .
+
+c1:376 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/139" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "1703"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-8.53"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "122.775"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Lewotobi" ;
+	c2:KK5 "Lesser Sunda Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:377 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/138" ;
+	c2:QVG "Tanzania" ;
+	c2:E13 "2890"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-2.751"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "35.902"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Lengai, Ol Doinyo" ;
+	c2:KK5 "Africa-E" ;
+	c2:FAC "Stratovolcano" .
+
+c1:378 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/137" ;
+	c2:QVG "Chile" ;
+	c2:E13 "5592"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-23.37"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-67.73"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Lascar" ;
+	c2:KK5 "Chile-N" ;
+	c2:FAC "Stratovolcano" .
+
+c1:379 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/136" ;
+	c2:QVG "Papua New Guinea" ;
+	c2:E13 "1330"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-5.525"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "148.42"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Langila" ;
+	c2:KK5 "New Britain-SW Pac" ;
+	c2:FAC "Complex volcano" .
+
+c1:380 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/135" ;
+	c2:QVG "Iceland" ;
+	c2:E13 "550"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "64.08"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-19.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Lambafit" ;
+	c2:KK5 "Iceland-S" ;
+	c2:FAC "Crater rows" .
+
+c1:381 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/134" ;
+	c2:QVG "Sweden" ;
+	c2:E13 "1725"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "64.42"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "17.33"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Lakagigar" ;
+	c2:KK5 "Iceland-NE" ;
+	c2:FAC "Caldera" .
+
+c1:382 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/133" ;
+	c2:QVG "Spain" ;
+	c2:E13 "2426"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "28.58"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-17.83"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "La Palma" ;
+	c2:KK5 "Canary Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:383 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/132" ;
+	c2:QVG "Iceland" ;
+	c2:E13 "1920"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "64.65"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-16.72"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Kverkfjoll" ;
+	c2:KK5 "Iceland-NE" ;
+	c2:FAC "Stratovolcano" .
+
+c1:384 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/131" ;
+	c2:QVG "Vanuatu" ;
+	c2:E13 "-2.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "-16.829"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "168.536"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Kuwae" ;
+	c2:KK5 "Vanuatu-SW Pacific" ;
+	c2:FAC "Caldera" .
+
+c1:385 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/130" ;
+	c2:QVG "Japan" ;
+	c2:E13 "2176"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "36.62"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "138.55"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Kusatsu-Shirane" ;
+	c2:KK5 "Honshu-Japan" ;
+	c2:FAC "Stratovolcano" .
+
+c1:386 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/13" ;
+	c2:QVG "Vanuatu" ;
+	c2:E13 "1496"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-15.4"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "167.83"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Aoba" ;
+	c2:KK5 "Vanuatu-SW Pacific" ;
+	c2:FAC "Shield volcano" .
+
+c1:387 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/129" ;
+	c2:QVG "United States" ;
+	c2:E13 "1895"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "56.02"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-159.8"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Kupreanof" ;
+	c2:KK5 "Alaska Peninsula" ;
+	c2:FAC "Stratovolcano" .
+
+c1:388 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/128" ;
+	c2:QVG "Japan" ;
+	c2:E13 "1788"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "33.08"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "131.25"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Kuju Group" ;
+	c2:KK5 "Kyushu-Japan" ;
+	c2:FAC "Stratovolcano" .
+
+c1:389 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/127" ;
+	c2:QVG "Japan" ;
+	c2:E13 "649"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "30.43"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "130.22"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Kuchinoerabu-jima" ;
+	c2:KK5 "Ryukyu Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:390 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/126" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "813"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-6.102"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "105.423"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Krakatau" ;
+	c2:KK5 "Indonesia" ;
+	c2:FAC "Caldera" .
+
+c1:391 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/125" ;
+	c2:QVG "Iceland" ;
+	c2:E13 "1491"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "63.98"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-19.7"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Krakagiger" ;
+	c2:KK5 "Iceland-S" ;
+	c2:FAC "Stratovolcano" .
+
+c1:392 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/124" ;
+	c2:QVG "Iceland" ;
+	c2:E13 "650"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "65.73"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-16.78"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Krafla" ;
+	c2:KK5 "Iceland-NE" ;
+	c2:FAC "Caldera" .
+
+c1:393 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/123" ;
+	c2:QVG "Japan" ;
+	c2:E13 "1140"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "42.07"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "140.68"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Komaga-take" ;
+	c2:KK5 "Hokkaido-Japan" ;
+	c2:FAC "Stratovolcano" .
+
+c1:394 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/122" ;
+	c2:QVG "Russia" ;
+	c2:E13 "1328"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "46.042"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "150.05"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Kolokol Group" ;
+	c2:KK5 "Kuril Is" ;
+	c2:FAC "Somma volcano" .
+
+c1:395 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/121" ;
+	c2:QVG "Russia" ;
+	c2:E13 "4835"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "56.057"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "160.638"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Kliuchevskoi" ;
+	c2:KK5 "Kamchatka" ;
+	c2:FAC "Stratovolcano" .
+
+c1:396 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/120" ;
+	c2:QVG "United States" ;
+	c2:E13 "1220"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "52.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "177.6"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Kiska" ;
+	c2:KK5 "Aleutian Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:397 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/12" ;
+	c2:QVG "United States" ;
+	c2:E13 "1066"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "52.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-171.25"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Amukta" ;
+	c2:KK5 "Aleutian Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:398 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/119" ;
+	c2:QVG "Japan" ;
+	c2:E13 "1700"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "31.93"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "130.87"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Kirishima" ;
+	c2:KK5 "Kyushu-Japan" ;
+	c2:FAC "Shield volcano" .
+
+c1:399 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/118" ;
+	c2:QVG "United States" ;
+	c2:E13 "1222"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "19.425"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-155.292"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Kilauea" ;
+	c2:KK5 "Hawaiian Is" ;
+	c2:FAC "Shield volcano" .
+
+c1:400 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/117" ;
+	c2:QVG "Japan" ;
+	c2:E13 "717"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "30.78"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "130.28"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Kikai" ;
+	c2:KK5 "Ryukyu Is" ;
+	c2:FAC "Caldera" .
+
+c1:401 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/116" ;
+	c2:QVG "Netherlands" ;
+	c2:E13 "-177.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "12.3"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-61.63"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Kick-'em-Jenny" ;
+	c2:KK5 "W Indies" ;
+	c2:FAC "Submarine volcano" .
+
+c1:402 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/115" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "3800"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-1.814"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "101.264"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Kerinci" ;
+	c2:KK5 "Sumatra" ;
+	c2:FAC "Stratovolcano" .
+
+c1:403 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/114" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "1731"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-7.93"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "112.308"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Kelut" ;
+	c2:KK5 "Java" ;
+	c2:FAC "Stratovolcano" .
+
+c1:404 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/113" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "1640"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-8.758"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "121.83"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Kelimutu" ;
+	c2:KK5 "Lesser Sunda Is" ;
+	c2:FAC "Complex volcano" .
+
+c1:405 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/112" ;
+	c2:QVG "Solomon Is." ;
+	c2:E13 "-20.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "-9.02"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "157.95"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Kavachi" ;
+	c2:KK5 "Solomon Is-SW Pacifi" ;
+	c2:FAC "Submarine volcano" .
+
+c1:406 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/111" ;
+	c2:QVG "United States" ;
+	c2:E13 "314"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "52.18"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-175.5"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Kasatochi" ;
+	c2:KK5 "Aleutian Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:407 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/110" ;
+	c2:QVG "Russia" ;
+	c2:E13 "1536"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "54.05"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "159.43"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Karymsky" ;
+	c2:KK5 "Kamchatka" ;
+	c2:FAC "Stratovolcano" .
+
+c1:408 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/11" ;
+	c2:QVG "Vanuatu" ;
+	c2:E13 "1334"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-16.25"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "168.12"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Ambrym" ;
+	c2:KK5 "Vanuatu-SW Pacific" ;
+	c2:FAC "Pyroclastic shield" .
+
+c1:409 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/109" ;
+	c2:QVG "Comoros" ;
+	c2:E13 "2361"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-11.75"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "43.38"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Karthala" ;
+	c2:KK5 "Indian O-W" ;
+	c2:FAC "Shield volcano" .
+
+c1:410 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/108" ;
+	c2:QVG "Papua New Guinea" ;
+	c2:E13 "1839"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-4.649"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "145.964"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Karkar" ;
+	c2:KK5 "New Guinea-NE of" ;
+	c2:FAC "Stratovolcano" .
+
+c1:411 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/107" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "1784"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "2.78"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "125.48"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Karangetang [Api Siau]" ;
+	c2:KK5 "Sangihe Is-Indonesia" ;
+	c2:FAC "Stratovolcano" .
+
+c1:412 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/106" ;
+	c2:QVG "United States" ;
+	c2:E13 "1307"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "51.92"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-177.17"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Kanaga" ;
+	c2:KK5 "Aleutian Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:413 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/105" ;
+	c2:QVG "Japan" ;
+	c2:E13 "-10.0"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:0ZY "26.122"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "141.102"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Kaitoku Seamount" ;
+	c2:KK5 "Volcano Is-Japan" ;
+	c2:FAC "Submarine volcano" .
+
+c1:414 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/104" ;
+	c2:QVG "Jan Mayen" ;
+	c2:E13 "2277"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "71.08"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-8.17"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Jan Mayen" ;
+	c2:KK5 "Atlantic-N-Jan Mayen" ;
+	c2:FAC "Stratovolcano" .
+
+c1:415 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/103" ;
+	c2:QVG "Japan" ;
+	c2:E13 "1406"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "34.92"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "139.12"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Izu-Tobu" ;
+	c2:KK5 "Honshu-Japan" ;
+	c2:FAC "Pyroclastic cone" .
+
+c1:416 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/102" ;
+	c2:QVG "El Salvador" ;
+	c2:E13 "1950"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "13.813"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-89.633"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Izalco" ;
+	c2:KK5 "El Salvador" ;
+	c2:FAC "Stratovolcano" .
+
+c1:417 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/101" ;
+	c2:QVG "Indonesia" ;
+	c2:E13 "637"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "-8.88"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "121.63"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Iya" ;
+	c2:KK5 "Lesser Sunda Is" ;
+	c2:FAC "Stratovolcano" .
+
+c1:418 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/100" ;
+	c2:QVG "Japan" ;
+	c2:E13 "161"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "24.75"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "141.33"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Iwo-jima" ;
+	c2:KK5 "Volcano Is-Japan" ;
+	c2:FAC "Caldera" .
+
+c1:419 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/10" ;
+	c2:QVG "Ecuador" ;
+	c2:E13 "1130"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "..43E-1" ;
+	c2:UM8 "-91.12"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Alcedo, Volcan" ;
+	c2:KK5 "Galapagos" ;
+	c2:FAC "Shield volcano" .
+
+c1:420 a c2:volcanos ;
+	c2:QAU "http://localhost:9091/project/volcanos/source/1" ;
+	c2:QVG "Guatemala" ;
+	c2:E13 "3976"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:0ZY "14.501"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:UM8 "-90.876"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:I91 "Acatenango" ;
+	c2:KK5 "Guatemala" ;
+	c2:FAC "Stratovolcano" .

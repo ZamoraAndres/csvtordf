@@ -1,0 +1,149 @@
+{% extends 'csvtottl/base.html' %}
+
+{% load static %}
+
+{% load bootstrap3 %}
+
+{% block title %}CSV to RDF (.ttl){% endblock %}
+
+{% block content %}
+
+<div class="centered">
+<h1>Transform CSV to RDF (.ttl)</h1>
+</div>
+
+
+{% if documents %}
+
+<div class="container-fluid">
+<div class="centered">
+
+    {% for document in documents %}
+    <!--<li><a href="{{ document.docfile.url }}">{{ document.docfile.name }}</a></li>-->
+        Document ready to convert
+    {% endfor %}
+<p> </p>
+    <!--{% buttons %}
+{% endbuttons %}-->
+
+<!-- comma, semi-colon, colon, vertical bar, tab, space -->
+Separator:
+<p> </p>
+    <div class="row">
+        <div class="btn-group">
+            <button type="button" class="btn btn-default">,</button>
+            <button type="button" class="btn btn-default">;</button>
+            <button type="button" class="btn btn-default">:</button>
+            <button type="button" class="btn btn-default">|</button>
+            <button type="button" class="btn btn-default">tab</button>
+            <button type="button" class="btn btn-default">space</button>
+        </div>
+    </div>  
+<p> </p>
+    <div class="row">
+            <div class="checkbox">
+                <label for="flat-checkbox-2" class="">
+                    Headers
+                <div class="icheckbox_flat checked" style="position: relative;"><input type="checkbox" id="flat-checkbox-2" checked="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; border: 0px; opacity: 0; background: rgb(255, 255, 255);"></ins></div>
+                </label>
+            </div>
+    </div>  
+    <p></p>
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class=".col-xs-6 .col-md-4">
+            <div class="col-md-2">
+                <!--<a href="{% url 'csvtottl:convertFile' %}" >-->
+                    <button type="submit" class="btn btn-primary" onclick="convertAndDownloadFile()">
+                    Convert it!
+                    </button>
+                <!--</a>-->
+            </div>
+            <div class="col-md-2">
+                <a href="{% url 'csvtottl:deleteFile' %}">
+                    <button type="button" class="btn btn-danger delete">
+                        <i class="glyphicon glyphicon-trash"></i>
+                        <span>Delete</span>
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+</div>
+</div>
+{% else %}
+<div class="container-fluid">
+<div class="centered">
+
+    {% for document in documents %}
+    <!--<li><a href="{{ document.docfile.url }}">{{ document.docfile.name }}</a></li>-->
+        Document ready to convert
+    {% endfor %}
+<p> </p>
+    <!--{% buttons %}
+{% endbuttons %}-->
+<p>Upload a document.</p>
+<form action="{% url "csvtottl:csvtordf" %}" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <p>{{ form.non_field_errors }}</p>
+            <p>{{ form.docfile.label_tag }} {{ form.docfile.help_text }}</p>
+            <p>
+                {{ form.docfile.errors }}
+                
+                <!--{{ form.docfile }}-->
+            </p>
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class=".col-xs-6 .col-md-4">
+            <div class="col-md-2">
+                <span class="btn btn-success fileinput-button" onchange="showUpload();">
+                    <i class="glyphicon glyphicon-plus"></i>
+                    <span>Add file...</span>
+                    <!--<input type="file" name="files[]">-->
+                    {{ form.docfile }}
+                </span>
+            </div>
+            <div class="col-md-2">
+                <button id="upload" type="submit" class="btn btn-primary start">
+                    <i class="glyphicon glyphicon-upload"></i>
+                    <span>Start upload</span>
+                </button>
+            </div>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+</form>
+</div>
+</div>
+
+    
+
+        
+{% endif %}
+
+<!--
+
+<input type="submit" class="btn btn-success fileinput-button" value="Upload" />
+
+
+
+{% if line_list %}
+    <ul>
+    {% for row in line_list %}
+        <li>-->
+            <!--
+        {% for row_col in row %}
+            {{ row_col }},
+        {% endfor %}
+            --><!--
+            {{row}}
+        </li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No lines are available.</p>
+{% endif %}
+
+-->
+{% endblock %}

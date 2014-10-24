@@ -1,0 +1,2521 @@
+@prefix c1: <http://localhost:8000/project/output.2001c/source> .
+@prefix c2: <http://localhost:8000/project/output.2001c/source#> .
+
+c1:0 a c2:output.2001c ;
+	c2:LFH "US" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "United States" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|   16720000000000[$:USD][GDP]" ;
+	c2:8JI "Rank=1" .
+
+c1:1 a c2:output.2001c ;
+	c2:LFH "EU" ;
+	c2:675 "A" ;
+	c2:WIV "PCLU" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "European Union" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|   15850000000000[$:USD][GDP]" ;
+	c2:8JI "Rank=2" .
+
+c1:2 a c2:output.2001c ;
+	c2:LFH "CN" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "China" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|   13390000000000[$:USD][GDP]" ;
+	c2:8JI "Rank=3" .
+
+c1:3 a c2:output.2001c ;
+	c2:LFH "IN" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "India" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|    4990000000000[$:USD][GDP]" ;
+	c2:8JI "Rank=4" .
+
+c1:4 a c2:output.2001c ;
+	c2:LFH "JP" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Japan" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|    4729000000000[$:USD][GDP]" ;
+	c2:8JI "Rank=5" .
+
+c1:5 a c2:output.2001c ;
+	c2:LFH "DE" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Germany" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|    3227000000000[$:USD][GDP]" ;
+	c2:8JI "Rank=6" .
+
+c1:6 a c2:output.2001c ;
+	c2:LFH "RU" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Russia" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|    2553000000000[$:USD][GDP]" ;
+	c2:8JI "Rank=7" .
+
+c1:7 a c2:output.2001c ;
+	c2:LFH "BR" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Brazil" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|    2416000000000[$:USD][GDP]" ;
+	c2:8JI "Rank=8" .
+
+c1:8 a c2:output.2001c ;
+	c2:LFH "GB" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "United Kingdom" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|    2387000000000[$:USD][GDP]" ;
+	c2:8JI "Rank=9" .
+
+c1:9 a c2:output.2001c ;
+	c2:LFH "FR" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "France" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|    2276000000000[$:USD][GDP]" ;
+	c2:8JI "Rank=10" .
+
+c1:10 a c2:output.2001c ;
+	c2:LFH "MX" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Mexico" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|    1845000000000[$:USD][GDP]" ;
+	c2:8JI "Rank=11" .
+
+c1:11 a c2:output.2001c ;
+	c2:LFH "IT" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Italy" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|    1805000000000[$:USD][GDP]" ;
+	c2:8JI "Rank=12" .
+
+c1:12 a c2:output.2001c ;
+	c2:LFH "KR" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Korea, South" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|    1666000000000[$:USD][GDP]" ;
+	c2:8JI "Rank=13" .
+
+c1:13 a c2:output.2001c ;
+	c2:LFH "CA" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Canada" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|    1518000000000[$:USD][GDP]" ;
+	c2:8JI "Rank=14" .
+
+c1:14 a c2:output.2001c ;
+	c2:LFH "ES" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Spain" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|    1389000000000[$:USD][GDP]" ;
+	c2:8JI "Rank=15" .
+
+c1:15 a c2:output.2001c ;
+	c2:LFH "ID" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Indonesia" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|    1285000000000[$:USD][GDP]" ;
+	c2:8JI "Rank=16" .
+
+c1:16 a c2:output.2001c ;
+	c2:LFH "TR" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Turkey" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|    1167000000000[$:USD][GDP]" ;
+	c2:8JI "Rank=17" .
+
+c1:17 a c2:output.2001c ;
+	c2:LFH "AU" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Australia" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     998300000000[$:USD][GDP]" ;
+	c2:8JI "Rank=18" .
+
+c1:18 a c2:output.2001c ;
+	c2:LFH "IR" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Iran" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     987100000000[$:USD][GDP]" ;
+	c2:8JI "Rank=19" .
+
+c1:19 a c2:output.2001c ;
+	c2:LFH "SA" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Saudi Arabia" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     927800000000[$:USD][GDP]" ;
+	c2:8JI "Rank=20" .
+
+c1:20 a c2:output.2001c ;
+	c2:LFH "TW" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Taiwan" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     926400000000[$:USD][GDP]" ;
+	c2:8JI "Rank=21" .
+
+c1:21 a c2:output.2001c ;
+	c2:LFH "PL" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Poland" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     814000000000[$:USD][GDP]" ;
+	c2:8JI "Rank=22" .
+
+c1:22 a c2:output.2001c ;
+	c2:LFH "AR" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Argentina" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     771000000000[$:USD][GDP]" ;
+	c2:8JI "Rank=23" .
+
+c1:23 a c2:output.2001c ;
+	c2:LFH "NL" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Netherlands" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     699700000000[$:USD][GDP]" ;
+	c2:8JI "Rank=24" .
+
+c1:24 a c2:output.2001c ;
+	c2:LFH "TH" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Thailand" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     673000000000[$:USD][GDP]" ;
+	c2:8JI "Rank=25" .
+
+c1:25 a c2:output.2001c ;
+	c2:LFH "ZA" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "South Africa" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     595700000000[$:USD][GDP]" ;
+	c2:8JI "Rank=26" .
+
+c1:26 a c2:output.2001c ;
+	c2:LFH "PK" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Pakistan" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     574100000000[$:USD][GDP]" ;
+	c2:8JI "Rank=27" .
+
+c1:27 a c2:output.2001c ;
+	c2:LFH "EG" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Egypt" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     551400000000[$:USD][GDP]" ;
+	c2:8JI "Rank=28" .
+
+c1:28 a c2:output.2001c ;
+	c2:LFH "CO" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Colombia" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     526500000000[$:USD][GDP]" ;
+	c2:8JI "Rank=29" .
+
+c1:29 a c2:output.2001c ;
+	c2:LFH "MY" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Malaysia" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     525000000000[$:USD][GDP]" ;
+	c2:8JI "Rank=30" .
+
+c1:30 a c2:output.2001c ;
+	c2:LFH "NG" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Nigeria" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     478500000000[$:USD][GDP]" ;
+	c2:8JI "Rank=31" .
+
+c1:31 a c2:output.2001c ;
+	c2:LFH "PH" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Philippines" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     454300000000[$:USD][GDP]" ;
+	c2:8JI "Rank=32" .
+
+c1:32 a c2:output.2001c ;
+	c2:LFH "BE" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Belgium" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     421700000000[$:USD][GDP]" ;
+	c2:8JI "Rank=33" .
+
+c1:33 a c2:output.2001c ;
+	c2:LFH "VE" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Venezuela" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     407400000000[$:USD][GDP]" ;
+	c2:8JI "Rank=34" .
+
+c1:34 a c2:output.2001c ;
+	c2:LFH "SE" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Sweden" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     393800000000[$:USD][GDP]" ;
+	c2:8JI "Rank=35" .
+
+c1:35 a c2:output.2001c ;
+	c2:LFH "HK" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Hong Kong" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     381300000000[$:USD][GDP]" ;
+	c2:8JI "Rank=36" .
+
+c1:36 a c2:output.2001c ;
+	c2:LFH "CH" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Switzerland" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     371200000000[$:USD][GDP]" ;
+	c2:8JI "Rank=37" .
+
+c1:37 a c2:output.2001c ;
+	c2:LFH "AT" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Austria" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     361000000000[$:USD][GDP]" ;
+	c2:8JI "Rank=38" .
+
+c1:38 a c2:output.2001c ;
+	c2:LFH "VN" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Vietnam" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     358900000000[$:USD][GDP]" ;
+	c2:8JI "Rank=39" .
+
+c1:39 a c2:output.2001c ;
+	c2:LFH "PE" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Peru" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     344000000000[$:USD][GDP]" ;
+	c2:8JI "Rank=40" .
+
+c1:40 a c2:output.2001c ;
+	c2:LFH "SG" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Singapore" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     339000000000[$:USD][GDP]" ;
+	c2:8JI "Rank=41" .
+
+c1:41 a c2:output.2001c ;
+	c2:LFH "UA" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Ukraine" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     337400000000[$:USD][GDP]" ;
+	c2:8JI "Rank=42" .
+
+c1:42 a c2:output.2001c ;
+	c2:LFH "CL" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Chile" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     335400000000[$:USD][GDP]" ;
+	c2:8JI "Rank=43" .
+
+c1:43 a c2:output.2001c ;
+	c2:LFH "BD" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Bangladesh" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     324600000000[$:USD][GDP]" ;
+	c2:8JI "Rank=44" .
+
+c1:44 a c2:output.2001c ;
+	c2:LFH "RO" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Romania" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     288500000000[$:USD][GDP]" ;
+	c2:8JI "Rank=45" .
+
+c1:45 a c2:output.2001c ;
+	c2:LFH "CZ" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Czech Republic" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     285600000000[$:USD][GDP]" ;
+	c2:8JI "Rank=46" .
+
+c1:46 a c2:output.2001c ;
+	c2:LFH "DZ" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Algeria" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     284700000000[$:USD][GDP]" ;
+	c2:8JI "Rank=47" .
+
+c1:47 a c2:output.2001c ;
+	c2:LFH "NO" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Norway" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     282200000000[$:USD][GDP]" ;
+	c2:8JI "Rank=48" .
+
+c1:48 a c2:output.2001c ;
+	c2:LFH "IL" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Israel" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     273200000000[$:USD][GDP]" ;
+	c2:8JI "Rank=49" .
+
+c1:49 a c2:output.2001c ;
+	c2:LFH "AE" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "United Arab Emirates" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     269800000000[$:USD][GDP]" ;
+	c2:8JI "Rank=50" .
+
+c1:50 a c2:output.2001c ;
+	c2:LFH "GR" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Greece" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     267100000000[$:USD][GDP]" ;
+	c2:8JI "Rank=51" .
+
+c1:51 a c2:output.2001c ;
+	c2:LFH "IQ" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Iraq" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     249400000000[$:USD][GDP]" ;
+	c2:8JI "Rank=52" .
+
+c1:52 a c2:output.2001c ;
+	c2:LFH "KZ" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Kazakhstan" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     243600000000[$:USD][GDP]" ;
+	c2:8JI "Rank=53" .
+
+c1:53 a c2:output.2001c ;
+	c2:LFH "PT" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Portugal" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     243300000000[$:USD][GDP]" ;
+	c2:8JI "Rank=54" .
+
+c1:54 a c2:output.2001c ;
+	c2:LFH "DK" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Denmark" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     211300000000[$:USD][GDP]" ;
+	c2:8JI "Rank=55" .
+
+c1:55 a c2:output.2001c ;
+	c2:LFH "QA" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Qatar" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     198700000000[$:USD][GDP]" ;
+	c2:8JI "Rank=56" .
+
+c1:56 a c2:output.2001c ;
+	c2:LFH "HU" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Hungary" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     196600000000[$:USD][GDP]" ;
+	c2:8JI "Rank=57" .
+
+c1:57 a c2:output.2001c ;
+	c2:LFH "FI" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Finland" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     195500000000[$:USD][GDP]" ;
+	c2:8JI "Rank=58" .
+
+c1:58 a c2:output.2001c ;
+	c2:LFH "IE" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Ireland" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     190400000000[$:USD][GDP]" ;
+	c2:8JI "Rank=59" .
+
+c1:59 a c2:output.2001c ;
+	c2:LFH "MA" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Morocco" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     180000000000[$:USD][GDP]" ;
+	c2:8JI "Rank=60" .
+
+c1:60 a c2:output.2001c ;
+	c2:LFH "KW" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Kuwait" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     165800000000[$:USD][GDP]" ;
+	c2:8JI "Rank=61" .
+
+c1:61 a c2:output.2001c ;
+	c2:LFH "EC" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Ecuador" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     157600000000[$:USD][GDP]" ;
+	c2:8JI "Rank=62" .
+
+c1:62 a c2:output.2001c ;
+	c2:LFH "BY" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Belarus" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     150400000000[$:USD][GDP]" ;
+	c2:8JI "Rank=63" .
+
+c1:63 a c2:output.2001c ;
+	c2:LFH "NZ" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "New Zealand" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     136000000000[$:USD][GDP]" ;
+	c2:8JI "Rank=64" .
+
+c1:64 a c2:output.2001c ;
+	c2:LFH "LK" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Sri Lanka" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     134500000000[$:USD][GDP]" ;
+	c2:8JI "Rank=65" .
+
+c1:65 a c2:output.2001c ;
+	c2:LFH "SK" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Slovakia" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     133400000000[$:USD][GDP]" ;
+	c2:8JI "Rank=66" .
+
+c1:66 a c2:output.2001c ;
+	c2:LFH "AO" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Angola" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     131800000000[$:USD][GDP]" ;
+	c2:8JI "Rank=67" .
+
+c1:67 a c2:output.2001c ;
+	c2:LFH "CU" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Cuba" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     121000000000[$:USD][GDP]" ;
+	c2:8JI "Rank=68" .
+
+c1:68 a c2:output.2001c ;
+	c2:LFH "ET" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Ethiopia" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     118200000000[$:USD][GDP]" ;
+	c2:8JI "Rank=69" .
+
+c1:69 a c2:output.2001c ;
+	c2:LFH "UZ" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Uzbekistan" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     112600000000[$:USD][GDP]" ;
+	c2:8JI "Rank=70" .
+
+c1:70 a c2:output.2001c ;
+	c2:LFH "MM" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Burma" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     111100000000[$:USD][GDP]" ;
+	c2:8JI "Rank=71" .
+
+c1:71 a c2:output.2001c ;
+	c2:LFH "TN" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Tunisia" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     108400000000[$:USD][GDP]" ;
+	c2:8JI "Rank=72" .
+
+c1:72 a c2:output.2001c ;
+	c2:LFH "SY" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Syria" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     107600000000[$:USD][GDP]" ;
+	c2:8JI "Rank=73" .
+
+c1:73 a c2:output.2001c ;
+	c2:LFH "BG" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Bulgaria" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     104600000000[$:USD][GDP]" ;
+	c2:8JI "Rank=74" .
+
+c1:74 a c2:output.2001c ;
+	c2:LFH "AZ" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Azerbaijan" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     102700000000[$:USD][GDP]" ;
+	c2:8JI "Rank=75" .
+
+c1:75 a c2:output.2001c ;
+	c2:LFH "DO" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Dominican Republic" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|     101000000000[$:USD][GDP]" ;
+	c2:8JI "Rank=76" .
+
+c1:76 a c2:output.2001c ;
+	c2:LFH "OM" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Oman" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      94860000000[$:USD][GDP]" ;
+	c2:8JI "Rank=77" .
+
+c1:77 a c2:output.2001c ;
+	c2:LFH "GH" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Ghana" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      90410000000[$:USD][GDP]" ;
+	c2:8JI "Rank=78" .
+
+c1:78 a c2:output.2001c ;
+	c2:LFH "SD" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Sudan" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      89970000000[$:USD][GDP]" ;
+	c2:8JI "Rank=79" .
+
+c1:79 a c2:output.2001c ;
+	c2:LFH "GT" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Guatemala" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      81510000000[$:USD][GDP]" ;
+	c2:8JI "Rank=80" .
+
+c1:80 a c2:output.2001c ;
+	c2:LFH "RS" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Serbia" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      80470000000[$:USD][GDP]" ;
+	c2:8JI "Rank=81" .
+
+c1:81 a c2:output.2001c ;
+	c2:LFH "KE" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Kenya" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      79900000000[$:USD][GDP]" ;
+	c2:8JI "Rank=82" .
+
+c1:82 a c2:output.2001c ;
+	c2:LFH "TZ" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Tanzania" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      79290000000[$:USD][GDP]" ;
+	c2:8JI "Rank=83" .
+
+c1:83 a c2:output.2001c ;
+	c2:LFH "HR" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Croatia" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      78900000000[$:USD][GDP]" ;
+	c2:8JI "Rank=84" .
+
+c1:84 a c2:output.2001c ;
+	c2:LFH "LY" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Libya" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      73600000000[$:USD][GDP]" ;
+	c2:8JI "Rank=85" .
+
+c1:85 a c2:output.2001c ;
+	c2:LFH "LT" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Lithuania" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      67430000000[$:USD][GDP]" ;
+	c2:8JI "Rank=86" .
+
+c1:86 a c2:output.2001c ;
+	c2:LFH "PR" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Puerto Rico" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      64840000000[$:USD][GDP]" ;
+	c2:8JI "Rank=87" .
+
+c1:87 a c2:output.2001c ;
+	c2:LFH "LB" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Lebanon" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      64310000000[$:USD][GDP]" ;
+	c2:8JI "Rank=88" .
+
+c1:88 a c2:output.2001c ;
+	c2:LFH "YE" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Yemen" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      61630000000[$:USD][GDP]" ;
+	c2:8JI "Rank=89" .
+
+c1:89 a c2:output.2001c ;
+	c2:LFH "PA" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Panama" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      61540000000[$:USD][GDP]" ;
+	c2:8JI "Rank=90" .
+
+c1:90 a c2:output.2001c ;
+	c2:LFH "CR" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Costa Rica" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      61430000000[$:USD][GDP]" ;
+	c2:8JI "Rank=91" .
+
+c1:91 a c2:output.2001c ;
+	c2:LFH "BO" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Bolivia" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      59110000000[$:USD][GDP]" ;
+	c2:8JI "Rank=92" .
+
+c1:92 a c2:output.2001c ;
+	c2:LFH "SI" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Slovenia" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      57360000000[$:USD][GDP]" ;
+	c2:8JI "Rank=93" .
+
+c1:93 a c2:output.2001c ;
+	c2:LFH "UY" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Uruguay" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      56270000000[$:USD][GDP]" ;
+	c2:8JI "Rank=94" .
+
+c1:94 a c2:output.2001c ;
+	c2:LFH "TM" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Turkmenistan" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      55160000000[$:USD][GDP]" ;
+	c2:8JI "Rank=95" .
+
+c1:95 a c2:output.2001c ;
+	c2:LFH "UG" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Uganda" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      54370000000[$:USD][GDP]" ;
+	c2:8JI "Rank=96" .
+
+c1:96 a c2:output.2001c ;
+	c2:LFH "CM" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Cameroon" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      53160000000[$:USD][GDP]" ;
+	c2:8JI "Rank=97" .
+
+c1:97 a c2:output.2001c ;
+	c2:LFH "MO" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Macau" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      51680000000[$:USD][GDP]" ;
+	c2:8JI "Rank=98" .
+
+c1:98 a c2:output.2001c ;
+	c2:LFH "SV" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "El Salvador" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      47470000000[$:USD][GDP]" ;
+	c2:8JI "Rank=99" .
+
+c1:99 a c2:output.2001c ;
+	c2:LFH "PY" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Paraguay" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      45900000000[$:USD][GDP]" ;
+	c2:8JI "Rank=100" .
+
+c1:100 a c2:output.2001c ;
+	c2:LFH "AF" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Afghanistan" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      45300000000[$:USD][GDP]" ;
+	c2:8JI "Rank=101" .
+
+c1:101 a c2:output.2001c ;
+	c2:LFH "CI" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Cote d'Ivoire" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      43670000000[$:USD][GDP]" ;
+	c2:8JI "Rank=102" .
+
+c1:102 a c2:output.2001c ;
+	c2:LFH "LU" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Luxembourg" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      42670000000[$:USD][GDP]" ;
+	c2:8JI "Rank=103" .
+
+c1:103 a c2:output.2001c ;
+	c2:LFH "NP" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Nepal" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      42060000000[$:USD][GDP]" ;
+	c2:8JI "Rank=104" .
+
+c1:104 a c2:output.2001c ;
+	c2:LFH "JO" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Jordan" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      40020000000[$:USD][GDP]" ;
+	c2:8JI "Rank=105" .
+
+c1:105 a c2:output.2001c ;
+	c2:LFH "KP" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Korea, North" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      40000000000[$:USD][GDP]" ;
+	c2:8JI "Rank=106" .
+
+c1:106 a c2:output.2001c ;
+	c2:LFH "KH" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Cambodia" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      39640000000[$:USD][GDP]" ;
+	c2:8JI "Rank=107" .
+
+c1:107 a c2:output.2001c ;
+	c2:LFH "HN" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Honduras" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      39230000000[$:USD][GDP]" ;
+	c2:8JI "Rank=108" .
+
+c1:108 a c2:output.2001c ;
+	c2:LFH "LV" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Latvia" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      38870000000[$:USD][GDP]" ;
+	c2:8JI "Rank=109" .
+
+c1:109 a c2:output.2001c ;
+	c2:LFH "BH" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Bahrain" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      34960000000[$:USD][GDP]" ;
+	c2:8JI "Rank=110" .
+
+c1:110 a c2:output.2001c ;
+	c2:LFH "BW" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Botswana" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      34000000000[$:USD][GDP]" ;
+	c2:8JI "Rank=111" .
+
+c1:111 a c2:output.2001c ;
+	c2:LFH "BA" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Bosnia and Herzegovina" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      32160000000[$:USD][GDP]" ;
+	c2:8JI "Rank=112" .
+
+c1:112 a c2:output.2001c ;
+	c2:LFH "GA" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Gabon" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      30060000000[$:USD][GDP]" ;
+	c2:8JI "Rank=113" .
+
+c1:113 a c2:output.2001c ;
+	c2:LFH "EE" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Estonia" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      29940000000[$:USD][GDP]" ;
+	c2:8JI "Rank=114" .
+
+c1:114 a c2:output.2001c ;
+	c2:LFH "CD" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Congo, Democratic Republic of the" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      29390000000[$:USD][GDP]" ;
+	c2:8JI "Rank=115" .
+
+c1:115 a c2:output.2001c ;
+	c2:LFH "AL" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Albania" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      28340000000[$:USD][GDP]" ;
+	c2:8JI "Rank=116" .
+
+c1:116 a c2:output.2001c ;
+	c2:LFH "MZ" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Mozambique" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      28150000000[$:USD][GDP]" ;
+	c2:8JI "Rank=117" .
+
+c1:117 a c2:output.2001c ;
+	c2:LFH "TD" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Chad" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      28000000000[$:USD][GDP]" ;
+	c2:8JI "Rank=118" .
+
+c1:118 a c2:output.2001c ;
+	c2:LFH "NI" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Nicaragua" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      27970000000[$:USD][GDP]" ;
+	c2:8JI "Rank=119" .
+
+c1:119 a c2:output.2001c ;
+	c2:LFH "SN" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Senegal" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      27720000000[$:USD][GDP]" ;
+	c2:8JI "Rank=120" .
+
+c1:120 a c2:output.2001c ;
+	c2:LFH "GE" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Georgia" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      27300000000[$:USD][GDP]" ;
+	c2:8JI "Rank=121" .
+
+c1:121 a c2:output.2001c ;
+	c2:LFH "TT" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Trinidad and Tobago" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      27140000000[$:USD][GDP]" ;
+	c2:8JI "Rank=122" .
+
+c1:122 a c2:output.2001c ;
+	c2:LFH "BF" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Burkina Faso" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      26510000000[$:USD][GDP]" ;
+	c2:8JI "Rank=123" .
+
+c1:123 a c2:output.2001c ;
+	c2:LFH "ZM" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Zambia" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      25470000000[$:USD][GDP]" ;
+	c2:8JI "Rank=124" .
+
+c1:124 a c2:output.2001c ;
+	c2:LFH "TL" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Timor-Leste" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      25410000000[$:USD][GDP]" ;
+	c2:8JI "Rank=125" .
+
+c1:125 a c2:output.2001c ;
+	c2:LFH "JM" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Jamaica" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      25130000000[$:USD][GDP]" ;
+	c2:8JI "Rank=126" .
+
+c1:126 a c2:output.2001c ;
+	c2:LFH "MK" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Macedonia" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      22570000000[$:USD][GDP]" ;
+	c2:8JI "Rank=127" .
+
+c1:127 a c2:output.2001c ;
+	c2:LFH "BN" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Brunei" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      22250000000[$:USD][GDP]" ;
+	c2:8JI "Rank=128" .
+
+c1:128 a c2:output.2001c ;
+	c2:LFH "MG" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Madagascar" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      22030000000[$:USD][GDP]" ;
+	c2:8JI "Rank=129" .
+
+c1:129 a c2:output.2001c ;
+	c2:LFH "CY" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Cyprus" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      21620000000[$:USD][GDP]" ;
+	c2:8JI "Rank=130" .
+
+c1:130 a c2:output.2001c ;
+	c2:LFH "MU" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Mauritius" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      20950000000[$:USD][GDP]" ;
+	c2:8JI "Rank=131" .
+
+c1:131 a c2:output.2001c ;
+	c2:LFH "LA" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Laos" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      20780000000[$:USD][GDP]" ;
+	c2:8JI "Rank=132" .
+
+c1:132 a c2:output.2001c ;
+	c2:LFH "AM" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Armenia" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      20610000000[$:USD][GDP]" ;
+	c2:8JI "Rank=133" .
+
+c1:133 a c2:output.2001c ;
+	c2:LFH "CG" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Congo, Republic of the" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      20260000000[$:USD][GDP]" ;
+	c2:8JI "Rank=134" .
+
+c1:134 a c2:output.2001c ;
+	c2:LFH "PG" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Papua New Guinea" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      19960000000[$:USD][GDP]" ;
+	c2:8JI "Rank=135" .
+
+c1:135 a c2:output.2001c ;
+	c2:LFH "GQ" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Equatorial Guinea" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      19680000000[$:USD][GDP]" ;
+	c2:8JI "Rank=136" .
+
+c1:136 a c2:output.2001c ;
+	c2:LFH "TJ" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Tajikistan" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      19200000000[$:USD][GDP]" ;
+	c2:8JI "Rank=137" .
+
+c1:137 a c2:output.2001c ;
+	c2:LFH "ML" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Mali" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      18900000000[$:USD][GDP]" ;
+	c2:8JI "Rank=138" .
+
+c1:138 a c2:output.2001c ;
+	c2:LFH "NA" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Namibia" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      17790000000[$:USD][GDP]" ;
+	c2:8JI "Rank=139" .
+
+c1:139 a c2:output.2001c ;
+	c2:LFH "MN" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Mongolia" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      17030000000[$:USD][GDP]" ;
+	c2:8JI "Rank=140" .
+
+c1:140 a c2:output.2001c ;
+	c2:LFH "BJ" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Benin" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      16650000000[$:USD][GDP]" ;
+	c2:8JI "Rank=141" .
+
+c1:141 a c2:output.2001c ;
+	c2:LFH "RW" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Rwanda" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      16370000000[$:USD][GDP]" ;
+	c2:8JI "Rank=142" .
+
+c1:142 a c2:output.2001c ;
+	c2:LFH "MW" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Malawi" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      15020000000[$:USD][GDP]" ;
+	c2:8JI "Rank=143" .
+
+c1:143 a c2:output.2001c ;
+	c2:LFH "SS" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "South Sudan" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      14710000000[$:USD][GDP]" ;
+	c2:8JI "Rank=144" .
+
+c1:144 a c2:output.2001c ;
+	c2:LFH "KG" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Kyrgyzstan" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      14300000000[$:USD][GDP]" ;
+	c2:8JI "Rank=145" .
+
+c1:145 a c2:output.2001c ;
+	c2:LFH "XK" ;
+	c2:675 "A" ;
+	c2:WIV "PCLI" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Kosovo" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      14110000000[$:USD][GDP]" ;
+	c2:8JI "Rank=146" .
+
+c1:146 a c2:output.2001c ;
+	c2:LFH "NE" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Niger" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      13980000000[$:USD][GDP]" ;
+	c2:8JI "Rank=147" .
+
+c1:147 a c2:output.2001c ;
+	c2:LFH "HT" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Haiti" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      13420000000[$:USD][GDP]" ;
+	c2:8JI "Rank=148" .
+
+c1:148 a c2:output.2001c ;
+	c2:LFH "MD" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Moldova" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      13250000000[$:USD][GDP]" ;
+	c2:8JI "Rank=149" .
+
+c1:149 a c2:output.2001c ;
+	c2:LFH "IS" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Iceland" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      13110000000[$:USD][GDP]" ;
+	c2:8JI "Rank=150" .
+
+c1:150 a c2:output.2001c ;
+	c2:LFH "GN" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Guinea" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      12560000000[$:USD][GDP]" ;
+	c2:8JI "Rank=151" .
+
+c1:151 a c2:output.2001c ;
+	c2:LFH "BS" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Bahamas, The" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      11400000000[$:USD][GDP]" ;
+	c2:8JI "Rank=152" .
+
+c1:152 a c2:output.2001c ;
+	c2:LFH "MT" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Malta" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|      11220000000[$:USD][GDP]" ;
+	c2:8JI "Rank=153" .
+
+c1:153 a c2:output.2001c ;
+	c2:LFH "NC" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "New Caledonia" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       9280000000[$:USD][GDP]" ;
+	c2:8JI "Rank=154" .
+
+c1:154 a c2:output.2001c ;
+	c2:LFH "SL" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Sierra Leone" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       9156000000[$:USD][GDP]" ;
+	c2:8JI "Rank=155" .
+
+c1:155 a c2:output.2001c ;
+	c2:LFH "MR" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Mauritania" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       8204000000[$:USD][GDP]" ;
+	c2:8JI "Rank=156" .
+
+c1:156 a c2:output.2001c ;
+	c2:LFH "PS" ;
+	c2:675 "A" ;
+	c2:WIV "ADMD" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "West Bank" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       8022000000[$:USD][GDP]" ;
+	c2:8JI "Rank=157" .
+
+c1:157 a c2:output.2001c ;
+	c2:LFH "ZW" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Zimbabwe" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       7496000000[$:USD][GDP]" ;
+	c2:8JI "Rank=158" .
+
+c1:158 a c2:output.2001c ;
+	c2:LFH "ME" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Montenegro" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       7429000000[$:USD][GDP]" ;
+	c2:8JI "Rank=159" .
+
+c1:159 a c2:output.2001c ;
+	c2:LFH "TG" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Togo" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       7348000000[$:USD][GDP]" ;
+	c2:8JI "Rank=160" .
+
+c1:160 a c2:output.2001c ;
+	c2:LFH "SR" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Suriname" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       7120000000[$:USD][GDP]" ;
+	c2:8JI "Rank=161" .
+
+c1:161 a c2:output.2001c ;
+	c2:LFH "BB" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Barbados" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       7004000000[$:USD][GDP]" ;
+	c2:8JI "Rank=162" .
+
+c1:162 a c2:output.2001c ;
+	c2:LFH "GY" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Guyana" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       6593000000[$:USD][GDP]" ;
+	c2:8JI "Rank=163" .
+
+c1:163 a c2:output.2001c ;
+	c2:LFH "SZ" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Swaziland" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       6259000000[$:USD][GDP]" ;
+	c2:8JI "Rank=164" .
+
+c1:164 a c2:output.2001c ;
+	c2:LFH "MC" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Monaco" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       6213000000[$:USD][GDP]" ;
+	c2:8JI "Rank=165" .
+
+c1:165 a c2:output.2001c ;
+	c2:LFH "SO" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Somalia" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       5896000000[$:USD][GDP]" ;
+	c2:8JI "Rank=166" .
+
+c1:166 a c2:output.2001c ;
+	c2:LFH "BI" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Burundi" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       5750000000[$:USD][GDP]" ;
+	c2:8JI "Rank=167" .
+
+c1:167 a c2:output.2001c ;
+	c2:LFH "PF" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "French Polynesia" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       5650000000[$:USD][GDP]" ;
+	c2:8JI "Rank=168" .
+
+c1:168 a c2:output.2001c ;
+	c2:LFH "BM" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Bermuda" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       5600000000[$:USD][GDP]" ;
+	c2:8JI "Rank=169" .
+
+c1:169 a c2:output.2001c ;
+	c2:LFH "BT" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Bhutan" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       5235000000[$:USD][GDP]" ;
+	c2:8JI "Rank=170" .
+
+c1:170 a c2:output.2001c ;
+	c2:LFH "JE" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Jersey" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       5100000000[$:USD][GDP]" ;
+	c2:8JI "Rank=171" .
+
+c1:171 a c2:output.2001c ;
+	c2:LFH "ER" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Eritrea" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       4717000000[$:USD][GDP]" ;
+	c2:8JI "Rank=172" .
+
+c1:172 a c2:output.2001c ;
+	c2:LFH "GU" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Guam" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       4600000000[$:USD][GDP]" ;
+	c2:8JI "Rank=173" .
+
+c1:173 a c2:output.2001c ;
+	c2:LFH "FJ" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Fiji" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       4450000000[$:USD][GDP]" ;
+	c2:8JI "Rank=174" .
+
+c1:174 a c2:output.2001c ;
+	c2:LFH "LS" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Lesotho" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       4265000000[$:USD][GDP]" ;
+	c2:8JI "Rank=175" .
+
+c1:175 a c2:output.2001c ;
+	c2:LFH "IM" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Isle of Man" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       4076000000[$:USD][GDP]" ;
+	c2:8JI "Rank=176" .
+
+c1:176 a c2:output.2001c ;
+	c2:LFH "GM" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Gambia, The" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       3678000000[$:USD][GDP]" ;
+	c2:8JI "Rank=177" .
+
+c1:177 a c2:output.2001c ;
+	c2:LFH "CF" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Central African Republic" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       3336000000[$:USD][GDP]" ;
+	c2:8JI "Rank=178" .
+
+c1:178 a c2:output.2001c ;
+	c2:LFH "LI" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Liechtenstein" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       3200000000[$:USD][GDP]" ;
+	c2:8JI "Rank=179" .
+
+c1:179 a c2:output.2001c ;
+	c2:LFH "AD" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Andorra" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       3163000000[$:USD][GDP]" ;
+	c2:8JI "Rank=180" .
+
+c1:180 a c2:output.2001c ;
+	c2:LFH "CW" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Curacao" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       3128000000[$:USD][GDP]" ;
+	c2:8JI "Rank=181" .
+
+c1:181 a c2:output.2001c ;
+	c2:LFH "BZ" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Belize" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       3083000000[$:USD][GDP]" ;
+	c2:8JI "Rank=182" .
+
+c1:182 a c2:output.2001c ;
+	c2:LFH "MV" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Maldives" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       3073000000[$:USD][GDP]" ;
+	c2:8JI "Rank=183" .
+
+c1:183 a c2:output.2001c ;
+	c2:LFH "LR" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Liberia" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       2898000000[$:USD][GDP]" ;
+	c2:8JI "Rank=184" .
+
+c1:184 a c2:output.2001c ;
+	c2:LFH "GG" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Guernsey" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       2742000000[$:USD][GDP]" ;
+	c2:8JI "Rank=185" .
+
+c1:185 a c2:output.2001c ;
+	c2:LFH "AW" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Aruba" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       2516000000[$:USD][GDP]" ;
+	c2:8JI "Rank=186" .
+
+c1:186 a c2:output.2001c ;
+	c2:LFH "DJ" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Djibouti" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       2505000000[$:USD][GDP]" ;
+	c2:8JI "Rank=187" .
+
+c1:187 a c2:output.2001c ;
+	c2:LFH "SC" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Seychelles" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       2404000000[$:USD][GDP]" ;
+	c2:8JI "Rank=188" .
+
+c1:188 a c2:output.2001c ;
+	c2:LFH "KY" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Cayman Islands" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       2250000000[$:USD][GDP]" ;
+	c2:8JI "Rank=189" .
+
+c1:189 a c2:output.2001c ;
+	c2:LFH "CV" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Cabo Verde" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       2222000000[$:USD][GDP]" ;
+	c2:8JI "Rank=190" .
+
+c1:190 a c2:output.2001c ;
+	c2:LFH "LC" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Saint Lucia" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       2216000000[$:USD][GDP]" ;
+	c2:8JI "Rank=191" .
+
+c1:191 a c2:output.2001c ;
+	c2:LFH "GL" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Greenland" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       2133000000[$:USD][GDP]" ;
+	c2:8JI "Rank=192" .
+
+c1:192 a c2:output.2001c ;
+	c2:LFH "GW" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Guinea-Bissau" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       2005000000[$:USD][GDP]" ;
+	c2:8JI "Rank=193" .
+
+c1:193 a c2:output.2001c ;
+	c2:LFH "SB" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Solomon Islands" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       1958000000[$:USD][GDP]" ;
+	c2:8JI "Rank=194" .
+
+c1:194 a c2:output.2001c ;
+	c2:LFH "AG" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Antigua and Barbuda" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       1610000000[$:USD][GDP]" ;
+	c2:8JI "Rank=195" .
+
+c1:195 a c2:output.2001c ;
+	c2:LFH "VI" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Virgin Islands" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       1577000000[$:USD][GDP]" ;
+	c2:8JI "Rank=196" .
+
+c1:196 a c2:output.2001c ;
+	c2:LFH "FO" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Faroe Islands" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       1471000000[$:USD][GDP]" ;
+	c2:8JI "Rank=197" .
+
+c1:197 a c2:output.2001c ;
+	c2:LFH "GD" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Grenada" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       1458000000[$:USD][GDP]" ;
+	c2:8JI "Rank=198" .
+
+c1:198 a c2:output.2001c ;
+	c2:LFH "VC" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Saint Vincent and the Grenadines" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       1335000000[$:USD][GDP]" ;
+	c2:8JI "Rank=199" .
+
+c1:199 a c2:output.2001c ;
+	c2:LFH "SM" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "San Marino" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       1306000000[$:USD][GDP]" ;
+	c2:8JI "Rank=200" .
+
+c1:200 a c2:output.2001c ;
+	c2:LFH "GI" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Gibraltar" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       1275000000[$:USD][GDP]" ;
+	c2:8JI "Rank=201" .
+
+c1:201 a c2:output.2001c ;
+	c2:LFH "VU" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Vanuatu" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       1270000000[$:USD][GDP]" ;
+	c2:8JI "Rank=202" .
+
+c1:202 a c2:output.2001c ;
+	c2:LFH "WS" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Samoa" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       1145000000[$:USD][GDP]" ;
+	c2:8JI "Rank=203" .
+
+c1:203 a c2:output.2001c ;
+	c2:LFH "DM" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Dominica" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|       1015000000[$:USD][GDP]" ;
+	c2:8JI "Rank=204" .
+
+c1:204 a c2:output.2001c ;
+	c2:LFH "KN" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Saint Kitts and Nevis" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|        952000000[$:USD][GDP]" ;
+	c2:8JI "Rank=205" .
+
+c1:205 a c2:output.2001c ;
+	c2:LFH "KM" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Comoros" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|        911000000[$:USD][GDP]" ;
+	c2:8JI "Rank=206" .
+
+c1:206 a c2:output.2001c ;
+	c2:LFH "EH" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Western Sahara" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|        906500000[$:USD][GDP]" ;
+	c2:8JI "Rank=207" .
+
+c1:207 a c2:output.2001c ;
+	c2:LFH "TO" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Tonga" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|        846000000[$:USD][GDP]" ;
+	c2:8JI "Rank=208" .
+
+c1:208 a c2:output.2001c ;
+	c2:LFH "SX" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Sint Maarten" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|        798300000[$:USD][GDP]" ;
+	c2:8JI "Rank=209" .
+
+c1:209 a c2:output.2001c ;
+	c2:LFH "FM" ;
+	c2:675 "A" ;
+	c2:WIV "PCLF" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Micronesia, Federated States of" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|        754000000[$:USD][GDP]" ;
+	c2:8JI "Rank=210" .
+
+c1:210 a c2:output.2001c ;
+	c2:LFH "MP" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Northern Mariana Islands" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|        733000000[$:USD][GDP]" ;
+	c2:8JI "Rank=211" .
+
+c1:211 a c2:output.2001c ;
+	c2:LFH "KI" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Kiribati" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|        698000000[$:USD][GDP]" ;
+	c2:8JI "Rank=212" .
+
+c1:212 a c2:output.2001c ;
+	c2:LFH "TC" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Turks and Caicos Islands" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|        632000000[$:USD][GDP]" ;
+	c2:8JI "Rank=213" .
+
+c1:213 a c2:output.2001c ;
+	c2:LFH "AS" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "American Samoa" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|        575300000[$:USD][GDP]" ;
+	c2:8JI "Rank=214" .
+
+c1:214 a c2:output.2001c ;
+	c2:LFH "VG" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "British Virgin Islands" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|        500000000[$:USD][GDP]" ;
+	c2:8JI "Rank=215" .
+
+c1:215 a c2:output.2001c ;
+	c2:LFH "MH" ;
+	c2:675 "A" ;
+	c2:WIV "PCLF" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Marshall Islands" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|        486000000[$:USD][GDP]" ;
+	c2:8JI "Rank=216" .
+
+c1:216 a c2:output.2001c ;
+	c2:LFH "ST" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Sao Tome and Principe" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|        421000000[$:USD][GDP]" ;
+	c2:8JI "Rank=217" .
+
+c1:217 a c2:output.2001c ;
+	c2:LFH "PW" ;
+	c2:675 "A" ;
+	c2:WIV "PCLF" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Palau" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|        245500000[$:USD][GDP]" ;
+	c2:8JI "Rank=218" .
+
+c1:218 a c2:output.2001c ;
+	c2:LFH "PM" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Saint Pierre and Miquelon" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|        215300000[$:USD][GDP]" ;
+	c2:8JI "Rank=219" .
+
+c1:219 a c2:output.2001c ;
+	c2:LFH "CK" ;
+	c2:675 "A" ;
+	c2:WIV "PCLF" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Cook Islands" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|        183200000[$:USD][GDP]" ;
+	c2:8JI "Rank=220" .
+
+c1:220 a c2:output.2001c ;
+	c2:LFH "AI" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Anguilla" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|        175400000[$:USD][GDP]" ;
+	c2:8JI "Rank=221" .
+
+c1:221 a c2:output.2001c ;
+	c2:LFH "FK" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Falkland Islands (Islas Malvinas)" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|        164500000[$:USD][GDP]" ;
+	c2:8JI "Rank=222" .
+
+c1:222 a c2:output.2001c ;
+	c2:LFH "WF" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Wallis and Futuna" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|         60000000[$:USD][GDP]" ;
+	c2:8JI "Rank=223" .
+
+c1:223 a c2:output.2001c ;
+	c2:LFH "NR" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Nauru" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|         60000000[$:USD][GDP]" ;
+	c2:8JI "Rank=224" .
+
+c1:224 a c2:output.2001c ;
+	c2:LFH "MS" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Montserrat" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|         43780000[$:USD][GDP]" ;
+	c2:8JI "Rank=225" .
+
+c1:225 a c2:output.2001c ;
+	c2:LFH "TV" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Tuvalu" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|         40000000[$:USD][GDP]" ;
+	c2:8JI "Rank=226" .
+
+c1:226 a c2:output.2001c ;
+	c2:LFH "SH" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Saint Helena, Ascension, and Tristan da Cunha" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|         31100000[$:USD][GDP]" ;
+	c2:8JI "Rank=227" .
+
+c1:227 a c2:output.2001c ;
+	c2:LFH "NU" ;
+	c2:675 "A" ;
+	c2:WIV "PCLF" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Niue" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|         10010000[$:USD][GDP]" ;
+	c2:8JI "Rank=228" .
+
+c1:228 a c2:output.2001c ;
+	c2:LFH "TK" ;
+	c2:675 "A" ;
+	c2:WIV "PCL" ;
+	c2:JCV "en" ;
+	c2:DNL "english" ;
+	c2:WCH "Tokelau" ;
+	c2:FJT "2014"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	c2:8YH "|          1500000[$:USD][GDP]" ;
+	c2:8JI "Rank=229" .

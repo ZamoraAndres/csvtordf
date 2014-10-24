@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <title>{% block title %}title{% endblock %}</title>
+
+		<link href="{{ STATIC_URL }}css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="{{ STATIC_URL }}css/bootflat.css" rel="stylesheet" type="text/css" />
+        <link href="{{ STATIC_URL }}css/jquery.fileupload.css" rel="stylesheet" type="text/css" />
+        <link href="{{ STATIC_URL }}css/jquery.fileupload-ui.css" rel="stylesheet" type="text/css" />
+        <link href="{{ STATIC_URL }}css/csvtordf.css" rel="stylesheet" type="text/css" />
+        <!--
+		<link href="{{ STATIC_URL }}css/bootflat.min.css" rel="stylesheet" type="text/css" />
+        <link href="{{ STATIC_URL }}css/site.css" rel="stylesheet" type="text/css" />
+        <link href="{{ STATIC_URL }}css/site.min.css" rel="stylesheet" type="text/css" />
+    -->
+        
+        
+        <script type="text/javascript" src="{{ STATIC_URL }}js/jquery-1.10.1.min.js"></script>
+        <script type="text/javascript" src="{{ STATIC_URL }}js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="{{ STATIC_URL }}js/csvtordf.js"></script>
+        <script type="text/javascript" src="{{ STATIC_URL }}js/jquery.fileDownload.js"></script>
+        <script type='text/javascript' src='{{ STATIC_URL }}js/site.min.js'></script>
+        <script type='text/javascript' src='{{ STATIC_URL }}js/icheck.min.js'></script>
+        <script type='text/javascript' src='{{ STATIC_URL }}js/jquery.cookie.js'></script>
+        <!--
+        <script type="text/javascript" src="{{ STATIC_URL }}js/application.js"></script>
+        <script type="text/javascript" src="{{ STATIC_URL }}js/icheck.min.js"></script>
+        <script type="text/javascript" src="{{ STATIC_URL }}js/jquery.fs.selecter.min.js"></script>
+        <script type="text/javascript" src="{{ STATIC_URL }}js/jquery.fs.stepper.min.js"></script>
+        <script type="text/javascript" src="{{ STATIC_URL }}js/site.min.js"></script>-->
+
+</head>
+
+<body>
+	{% block content %}{% endblock %}
+</body>

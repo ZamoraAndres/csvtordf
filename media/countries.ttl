@@ -1,0 +1,1472 @@
+@prefix c1: <http://localhost:8000/project/countries/source> .
+@prefix c2: <http://localhost:8000/project/countries/source#> .
+
+c1:0 a c2:countries ;
+	c2:ETG "country" ;
+	c2:55E "latitude" ;
+	c2:TBR "longitude" ;
+	c2:LF1 "name" .
+
+c1:1 a c2:countries ;
+	c2:ETG "AD" ;
+	c2:55E "42.546245"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "1.601554"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Andorra" .
+
+c1:2 a c2:countries ;
+	c2:ETG "AE" ;
+	c2:55E "23.424076"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "53.847818"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "United Arab Emirates" .
+
+c1:3 a c2:countries ;
+	c2:ETG "AF" ;
+	c2:55E "33.93911"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "67.709953"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Afghanistan" .
+
+c1:4 a c2:countries ;
+	c2:ETG "AG" ;
+	c2:55E "17.060816"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-61.796428"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Antigua and Barbuda" .
+
+c1:5 a c2:countries ;
+	c2:ETG "AI" ;
+	c2:55E "18.220554"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-63.068615"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Anguilla" .
+
+c1:6 a c2:countries ;
+	c2:ETG "AL" ;
+	c2:55E "41.153332"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "20.168331"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Albania" .
+
+c1:7 a c2:countries ;
+	c2:ETG "AM" ;
+	c2:55E "40.069099"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "45.038189"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Armenia" .
+
+c1:8 a c2:countries ;
+	c2:ETG "AN" ;
+	c2:55E "12.226079"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-69.060087"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Netherlands Antilles" .
+
+c1:9 a c2:countries ;
+	c2:ETG "AO" ;
+	c2:55E "-11.202692"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "17.873887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Angola" .
+
+c1:10 a c2:countries ;
+	c2:ETG "AQ" ;
+	c2:55E "-75.250973"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-0.071389"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Antarctica" .
+
+c1:11 a c2:countries ;
+	c2:ETG "AR" ;
+	c2:55E "-38.416097"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-63.616672"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Argentina" .
+
+c1:12 a c2:countries ;
+	c2:ETG "AS" ;
+	c2:55E "-14.270972"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-170.132217"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "American Samoa" .
+
+c1:13 a c2:countries ;
+	c2:ETG "AT" ;
+	c2:55E "47.516231"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "14.550072"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Austria" .
+
+c1:14 a c2:countries ;
+	c2:ETG "AU" ;
+	c2:55E "-25.274398"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "133.775136"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Australia" .
+
+c1:15 a c2:countries ;
+	c2:ETG "AW" ;
+	c2:55E "12.52111"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-69.968338"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Aruba" .
+
+c1:16 a c2:countries ;
+	c2:ETG "AZ" ;
+	c2:55E "40.143105"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "47.576927"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Azerbaijan" .
+
+c1:17 a c2:countries ;
+	c2:ETG "BA" ;
+	c2:55E "43.915886"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "17.679076"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Bosnia and Herzegovina" .
+
+c1:18 a c2:countries ;
+	c2:ETG "BB" ;
+	c2:55E "13.193887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-59.543198"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Barbados" .
+
+c1:19 a c2:countries ;
+	c2:ETG "BD" ;
+	c2:55E "23.684994"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "90.356331"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Bangladesh" .
+
+c1:20 a c2:countries ;
+	c2:ETG "BE" ;
+	c2:55E "50.503887"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "4.469936"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Belgium" .
+
+c1:21 a c2:countries ;
+	c2:ETG "BF" ;
+	c2:55E "12.238333"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-1.561593"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Burkina Faso" .
+
+c1:22 a c2:countries ;
+	c2:ETG "BG" ;
+	c2:55E "42.733883"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "25.48583"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Bulgaria" .
+
+c1:23 a c2:countries ;
+	c2:ETG "BH" ;
+	c2:55E "25.930414"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "50.637772"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Bahrain" .
+
+c1:24 a c2:countries ;
+	c2:ETG "BI" ;
+	c2:55E "-3.373056"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "29.918886"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Burundi" .
+
+c1:25 a c2:countries ;
+	c2:ETG "BJ" ;
+	c2:55E "9.30769"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "2.315834"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Benin" .
+
+c1:26 a c2:countries ;
+	c2:ETG "BM" ;
+	c2:55E "32.321384"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-64.75737"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Bermuda" .
+
+c1:27 a c2:countries ;
+	c2:ETG "BN" ;
+	c2:55E "4.535277"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "114.727669"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Brunei" .
+
+c1:28 a c2:countries ;
+	c2:ETG "BO" ;
+	c2:55E "-16.290154"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-63.588653"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Bolivia" .
+
+c1:29 a c2:countries ;
+	c2:ETG "BR" ;
+	c2:55E "-14.235004"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-51.92528"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Brazil" .
+
+c1:30 a c2:countries ;
+	c2:ETG "BS" ;
+	c2:55E "25.03428"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-77.39628"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Bahamas" .
+
+c1:31 a c2:countries ;
+	c2:ETG "BT" ;
+	c2:55E "27.514162"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "90.433601"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Bhutan" .
+
+c1:32 a c2:countries ;
+	c2:ETG "BV" ;
+	c2:55E "-54.423199"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "3.413194"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Bouvet Island" .
+
+c1:33 a c2:countries ;
+	c2:ETG "BW" ;
+	c2:55E "-22.328474"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "24.684866"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Botswana" .
+
+c1:34 a c2:countries ;
+	c2:ETG "BY" ;
+	c2:55E "53.709807"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "27.953389"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Belarus" .
+
+c1:35 a c2:countries ;
+	c2:ETG "BZ" ;
+	c2:55E "17.189877"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-88.49765"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Belize" .
+
+c1:36 a c2:countries ;
+	c2:ETG "CA" ;
+	c2:55E "56.130366"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-106.346771"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Canada" .
+
+c1:37 a c2:countries ;
+	c2:ETG "CC" ;
+	c2:55E "-12.164165"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "96.870956"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Cocos [Keeling] Islands" .
+
+c1:38 a c2:countries ;
+	c2:ETG "CD" ;
+	c2:55E "-4.038333"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "21.758664"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Congo [DRC]" .
+
+c1:39 a c2:countries ;
+	c2:ETG "CF" ;
+	c2:55E "6.611111"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "20.939444"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Central African Republic" .
+
+c1:40 a c2:countries ;
+	c2:ETG "CG" ;
+	c2:55E "-0.228021"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "15.827659"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Congo [Republic]" .
+
+c1:41 a c2:countries ;
+	c2:ETG "CH" ;
+	c2:55E "46.818188"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "8.227512"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Switzerland" .
+
+c1:42 a c2:countries ;
+	c2:ETG "CI" ;
+	c2:55E "7.539989"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-5.54708"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Côte d'Ivoire" .
+
+c1:43 a c2:countries ;
+	c2:ETG "CK" ;
+	c2:55E "-21.236736"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-159.777671"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Cook Islands" .
+
+c1:44 a c2:countries ;
+	c2:ETG "CL" ;
+	c2:55E "-35.675147"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-71.542969"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Chile" .
+
+c1:45 a c2:countries ;
+	c2:ETG "CM" ;
+	c2:55E "7.369722"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "12.354722"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Cameroon" .
+
+c1:46 a c2:countries ;
+	c2:ETG "CN" ;
+	c2:55E "35.86166"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "104.195397"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "China" .
+
+c1:47 a c2:countries ;
+	c2:ETG "CO" ;
+	c2:55E "4.570868"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-74.297333"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Colombia" .
+
+c1:48 a c2:countries ;
+	c2:ETG "CR" ;
+	c2:55E "9.748917"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-83.753428"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Costa Rica" .
+
+c1:49 a c2:countries ;
+	c2:ETG "CU" ;
+	c2:55E "21.521757"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-77.781167"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Cuba" .
+
+c1:50 a c2:countries ;
+	c2:ETG "CV" ;
+	c2:55E "16.002082"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-24.013197"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Cape Verde" .
+
+c1:51 a c2:countries ;
+	c2:ETG "CX" ;
+	c2:55E "-10.447525"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "105.690449"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Christmas Island" .
+
+c1:52 a c2:countries ;
+	c2:ETG "CY" ;
+	c2:55E "35.126413"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "33.429859"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Cyprus" .
+
+c1:53 a c2:countries ;
+	c2:ETG "CZ" ;
+	c2:55E "49.817492"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "15.472962"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Czech Republic" .
+
+c1:54 a c2:countries ;
+	c2:ETG "DE" ;
+	c2:55E "51.165691"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "10.451526"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Germany" .
+
+c1:55 a c2:countries ;
+	c2:ETG "DJ" ;
+	c2:55E "11.825138"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "42.590275"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Djibouti" .
+
+c1:56 a c2:countries ;
+	c2:ETG "DK" ;
+	c2:55E "56.26392"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "9.501785"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Denmark" .
+
+c1:57 a c2:countries ;
+	c2:ETG "DM" ;
+	c2:55E "15.414999"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-61.370976"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Dominica" .
+
+c1:58 a c2:countries ;
+	c2:ETG "DO" ;
+	c2:55E "18.735693"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-70.162651"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Dominican Republic" .
+
+c1:59 a c2:countries ;
+	c2:ETG "DZ" ;
+	c2:55E "28.033886"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "1.659626"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Algeria" .
+
+c1:60 a c2:countries ;
+	c2:ETG "EC" ;
+	c2:55E "-1.831239"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-78.183406"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Ecuador" .
+
+c1:61 a c2:countries ;
+	c2:ETG "EE" ;
+	c2:55E "58.595272"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "25.013607"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Estonia" .
+
+c1:62 a c2:countries ;
+	c2:ETG "EG" ;
+	c2:55E "26.820553"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "30.802498"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Egypt" .
+
+c1:63 a c2:countries ;
+	c2:ETG "EH" ;
+	c2:55E "24.215527"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-12.885834"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Western Sahara" .
+
+c1:64 a c2:countries ;
+	c2:ETG "ER" ;
+	c2:55E "15.179384"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "39.782334"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Eritrea" .
+
+c1:65 a c2:countries ;
+	c2:ETG "ES" ;
+	c2:55E "40.463667"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-3.74922"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Spain" .
+
+c1:66 a c2:countries ;
+	c2:ETG "ET" ;
+	c2:55E "9.145"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "40.489673"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Ethiopia" .
+
+c1:67 a c2:countries ;
+	c2:ETG "FI" ;
+	c2:55E "61.92411"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "25.748151"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Finland" .
+
+c1:68 a c2:countries ;
+	c2:ETG "FJ" ;
+	c2:55E "-16.578193"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "179.414413"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Fiji" .
+
+c1:69 a c2:countries ;
+	c2:ETG "FK" ;
+	c2:55E "-51.796253"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-59.523613"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Falkland Islands [Islas Malvinas]" .
+
+c1:70 a c2:countries ;
+	c2:ETG "FM" ;
+	c2:55E "7.425554"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "150.550812"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Micronesia" .
+
+c1:71 a c2:countries ;
+	c2:ETG "FO" ;
+	c2:55E "61.892635"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-6.911806"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Faroe Islands" .
+
+c1:72 a c2:countries ;
+	c2:ETG "FR" ;
+	c2:55E "46.227638"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "2.213749"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "France" .
+
+c1:73 a c2:countries ;
+	c2:ETG "GA" ;
+	c2:55E "-0.803689"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "11.609444"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Gabon" .
+
+c1:74 a c2:countries ;
+	c2:ETG "GB" ;
+	c2:55E "55.378051"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-3.435973"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "United Kingdom" .
+
+c1:75 a c2:countries ;
+	c2:ETG "GD" ;
+	c2:55E "12.262776"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-61.604171"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Grenada" .
+
+c1:76 a c2:countries ;
+	c2:ETG "GE" ;
+	c2:55E "42.315407"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "43.356892"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Georgia" .
+
+c1:77 a c2:countries ;
+	c2:ETG "GF" ;
+	c2:55E "3.933889"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-53.125782"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "French Guiana" .
+
+c1:78 a c2:countries ;
+	c2:ETG "GG" ;
+	c2:55E "49.465691"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-2.585278"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Guernsey" .
+
+c1:79 a c2:countries ;
+	c2:ETG "GH" ;
+	c2:55E "7.946527"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-1.023194"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Ghana" .
+
+c1:80 a c2:countries ;
+	c2:ETG "GI" ;
+	c2:55E "36.137741"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-5.345374"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Gibraltar" .
+
+c1:81 a c2:countries ;
+	c2:ETG "GL" ;
+	c2:55E "71.706936"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-42.604303"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Greenland" .
+
+c1:82 a c2:countries ;
+	c2:ETG "GM" ;
+	c2:55E "13.443182"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-15.310139"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Gambia" .
+
+c1:83 a c2:countries ;
+	c2:ETG "GN" ;
+	c2:55E "9.945587"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-9.696645"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Guinea" .
+
+c1:84 a c2:countries ;
+	c2:ETG "GP" ;
+	c2:55E "16.995971"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-62.067641"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Guadeloupe" .
+
+c1:85 a c2:countries ;
+	c2:ETG "GQ" ;
+	c2:55E "1.650801"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "10.267895"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Equatorial Guinea" .
+
+c1:86 a c2:countries ;
+	c2:ETG "GR" ;
+	c2:55E "39.074208"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "21.824312"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Greece" .
+
+c1:87 a c2:countries ;
+	c2:ETG "GS" ;
+	c2:55E "-54.429579"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-36.587909"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "South Georgia and the South Sandwich Islands" .
+
+c1:88 a c2:countries ;
+	c2:ETG "GT" ;
+	c2:55E "15.783471"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-90.230759"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Guatemala" .
+
+c1:89 a c2:countries ;
+	c2:ETG "GU" ;
+	c2:55E "13.444304"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "144.793731"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Guam" .
+
+c1:90 a c2:countries ;
+	c2:ETG "GW" ;
+	c2:55E "11.803749"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-15.180413"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Guinea-Bissau" .
+
+c1:91 a c2:countries ;
+	c2:ETG "GY" ;
+	c2:55E "4.860416"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-58.93018"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Guyana" .
+
+c1:92 a c2:countries ;
+	c2:ETG "GZ" ;
+	c2:55E "31.354676"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "34.308825"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Gaza Strip" .
+
+c1:93 a c2:countries ;
+	c2:ETG "HK" ;
+	c2:55E "22.396428"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "114.109497"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Hong Kong" .
+
+c1:94 a c2:countries ;
+	c2:ETG "HM" ;
+	c2:55E "-53.08181"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "73.504158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Heard Island and McDonald Islands" .
+
+c1:95 a c2:countries ;
+	c2:ETG "HN" ;
+	c2:55E "15.199999"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-86.241905"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Honduras" .
+
+c1:96 a c2:countries ;
+	c2:ETG "HR" ;
+	c2:55E "45.1"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "15.2"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Croatia" .
+
+c1:97 a c2:countries ;
+	c2:ETG "HT" ;
+	c2:55E "18.971187"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-72.285215"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Haiti" .
+
+c1:98 a c2:countries ;
+	c2:ETG "HU" ;
+	c2:55E "47.162494"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "19.503304"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Hungary" .
+
+c1:99 a c2:countries ;
+	c2:ETG "ID" ;
+	c2:55E "-0.789275"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "113.921327"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Indonesia" .
+
+c1:100 a c2:countries ;
+	c2:ETG "IE" ;
+	c2:55E "53.41291"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-8.24389"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Ireland" .
+
+c1:101 a c2:countries ;
+	c2:ETG "IL" ;
+	c2:55E "31.046051"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "34.851612"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Israel" .
+
+c1:102 a c2:countries ;
+	c2:ETG "IM" ;
+	c2:55E "54.236107"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-4.548056"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Isle of Man" .
+
+c1:103 a c2:countries ;
+	c2:ETG "IN" ;
+	c2:55E "20.593684"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "78.96288"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "India" .
+
+c1:104 a c2:countries ;
+	c2:ETG "IO" ;
+	c2:55E "-6.343194"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "71.876519"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "British Indian Ocean Territory" .
+
+c1:105 a c2:countries ;
+	c2:ETG "IQ" ;
+	c2:55E "33.223191"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "43.679291"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Iraq" .
+
+c1:106 a c2:countries ;
+	c2:ETG "IR" ;
+	c2:55E "32.427908"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "53.688046"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Iran" .
+
+c1:107 a c2:countries ;
+	c2:ETG "IS" ;
+	c2:55E "64.963051"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-19.020835"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Iceland" .
+
+c1:108 a c2:countries ;
+	c2:ETG "IT" ;
+	c2:55E "41.87194"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "12.56738"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Italy" .
+
+c1:109 a c2:countries ;
+	c2:ETG "JE" ;
+	c2:55E "49.214439"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-2.13125"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Jersey" .
+
+c1:110 a c2:countries ;
+	c2:ETG "JM" ;
+	c2:55E "18.109581"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-77.297508"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Jamaica" .
+
+c1:111 a c2:countries ;
+	c2:ETG "JO" ;
+	c2:55E "30.585164"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "36.238414"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Jordan" .
+
+c1:112 a c2:countries ;
+	c2:ETG "JP" ;
+	c2:55E "36.204824"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "138.252924"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Japan" .
+
+c1:113 a c2:countries ;
+	c2:ETG "KE" ;
+	c2:55E "-0.023559"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "37.906193"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Kenya" .
+
+c1:114 a c2:countries ;
+	c2:ETG "KG" ;
+	c2:55E "41.20438"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "74.766098"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Kyrgyzstan" .
+
+c1:115 a c2:countries ;
+	c2:ETG "KH" ;
+	c2:55E "12.565679"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "104.990963"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Cambodia" .
+
+c1:116 a c2:countries ;
+	c2:ETG "KI" ;
+	c2:55E "-3.370417"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-168.734039"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Kiribati" .
+
+c1:117 a c2:countries ;
+	c2:ETG "KM" ;
+	c2:55E "-11.875001"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "43.872219"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Comoros" .
+
+c1:118 a c2:countries ;
+	c2:ETG "KN" ;
+	c2:55E "17.357822"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-62.782998"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Saint Kitts and Nevis" .
+
+c1:119 a c2:countries ;
+	c2:ETG "KP" ;
+	c2:55E "40.339852"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "127.510093"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "North Korea" .
+
+c1:120 a c2:countries ;
+	c2:ETG "KR" ;
+	c2:55E "35.907757"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "127.766922"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "South Korea" .
+
+c1:121 a c2:countries ;
+	c2:ETG "KW" ;
+	c2:55E "29.31166"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "47.481766"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Kuwait" .
+
+c1:122 a c2:countries ;
+	c2:ETG "KY" ;
+	c2:55E "19.513469"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-80.566956"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Cayman Islands" .
+
+c1:123 a c2:countries ;
+	c2:ETG "KZ" ;
+	c2:55E "48.019573"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "66.923684"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Kazakhstan" .
+
+c1:124 a c2:countries ;
+	c2:ETG "LA" ;
+	c2:55E "19.85627"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "102.495496"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Laos" .
+
+c1:125 a c2:countries ;
+	c2:ETG "LB" ;
+	c2:55E "33.854721"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "35.862285"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Lebanon" .
+
+c1:126 a c2:countries ;
+	c2:ETG "LC" ;
+	c2:55E "13.909444"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-60.978893"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Saint Lucia" .
+
+c1:127 a c2:countries ;
+	c2:ETG "LI" ;
+	c2:55E "47.166"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "9.555373"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Liechtenstein" .
+
+c1:128 a c2:countries ;
+	c2:ETG "LK" ;
+	c2:55E "7.873054"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "80.771797"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Sri Lanka" .
+
+c1:129 a c2:countries ;
+	c2:ETG "LR" ;
+	c2:55E "6.428055"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-9.429499"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Liberia" .
+
+c1:130 a c2:countries ;
+	c2:ETG "LS" ;
+	c2:55E "-29.609988"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "28.233608"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Lesotho" .
+
+c1:131 a c2:countries ;
+	c2:ETG "LT" ;
+	c2:55E "55.169438"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "23.881275"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Lithuania" .
+
+c1:132 a c2:countries ;
+	c2:ETG "LU" ;
+	c2:55E "49.815273"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "6.129583"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Luxembourg" .
+
+c1:133 a c2:countries ;
+	c2:ETG "LV" ;
+	c2:55E "56.879635"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "24.603189"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Latvia" .
+
+c1:134 a c2:countries ;
+	c2:ETG "LY" ;
+	c2:55E "26.3351"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "17.228331"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Libya" .
+
+c1:135 a c2:countries ;
+	c2:ETG "MA" ;
+	c2:55E "31.791702"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-7.09262"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Morocco" .
+
+c1:136 a c2:countries ;
+	c2:ETG "MC" ;
+	c2:55E "43.750298"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "7.412841"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Monaco" .
+
+c1:137 a c2:countries ;
+	c2:ETG "MD" ;
+	c2:55E "47.411631"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "28.369885"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Moldova" .
+
+c1:138 a c2:countries ;
+	c2:ETG "ME" ;
+	c2:55E "42.708678"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "19.37439"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Montenegro" .
+
+c1:139 a c2:countries ;
+	c2:ETG "MG" ;
+	c2:55E "-18.766947"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "46.869107"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Madagascar" .
+
+c1:140 a c2:countries ;
+	c2:ETG "MH" ;
+	c2:55E "7.131474"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "171.184478"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Marshall Islands" .
+
+c1:141 a c2:countries ;
+	c2:ETG "MK" ;
+	c2:55E "41.608635"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "21.745275"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Macedonia [FYROM]" .
+
+c1:142 a c2:countries ;
+	c2:ETG "ML" ;
+	c2:55E "17.570692"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-3.996166"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Mali" .
+
+c1:143 a c2:countries ;
+	c2:ETG "MM" ;
+	c2:55E "21.913965"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "95.956223"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Myanmar [Burma]" .
+
+c1:144 a c2:countries ;
+	c2:ETG "MN" ;
+	c2:55E "46.862496"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "103.846656"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Mongolia" .
+
+c1:145 a c2:countries ;
+	c2:ETG "MO" ;
+	c2:55E "22.198745"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "113.543873"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Macau" .
+
+c1:146 a c2:countries ;
+	c2:ETG "MP" ;
+	c2:55E "17.33083"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "145.38469"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Northern Mariana Islands" .
+
+c1:147 a c2:countries ;
+	c2:ETG "MQ" ;
+	c2:55E "14.641528"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-61.024174"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Martinique" .
+
+c1:148 a c2:countries ;
+	c2:ETG "MR" ;
+	c2:55E "21.00789"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-10.940835"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Mauritania" .
+
+c1:149 a c2:countries ;
+	c2:ETG "MS" ;
+	c2:55E "16.742498"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-62.187366"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Montserrat" .
+
+c1:150 a c2:countries ;
+	c2:ETG "MT" ;
+	c2:55E "35.937496"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "14.375416"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Malta" .
+
+c1:151 a c2:countries ;
+	c2:ETG "MU" ;
+	c2:55E "-20.348404"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "57.552152"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Mauritius" .
+
+c1:152 a c2:countries ;
+	c2:ETG "MV" ;
+	c2:55E "3.202778"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "73.22068"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Maldives" .
+
+c1:153 a c2:countries ;
+	c2:ETG "MW" ;
+	c2:55E "-13.254308"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "34.301525"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Malawi" .
+
+c1:154 a c2:countries ;
+	c2:ETG "MX" ;
+	c2:55E "23.634501"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-102.552784"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Mexico" .
+
+c1:155 a c2:countries ;
+	c2:ETG "MY" ;
+	c2:55E "4.210484"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "101.975766"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Malaysia" .
+
+c1:156 a c2:countries ;
+	c2:ETG "MZ" ;
+	c2:55E "-18.665695"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "35.529562"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Mozambique" .
+
+c1:157 a c2:countries ;
+	c2:ETG "NA" ;
+	c2:55E "-22.95764"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "18.49041"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Namibia" .
+
+c1:158 a c2:countries ;
+	c2:ETG "NC" ;
+	c2:55E "-20.904305"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "165.618042"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "New Caledonia" .
+
+c1:159 a c2:countries ;
+	c2:ETG "NE" ;
+	c2:55E "17.607789"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "8.081666"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Niger" .
+
+c1:160 a c2:countries ;
+	c2:ETG "NF" ;
+	c2:55E "-29.040835"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "167.954712"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Norfolk Island" .
+
+c1:161 a c2:countries ;
+	c2:ETG "NG" ;
+	c2:55E "9.081999"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "8.675277"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Nigeria" .
+
+c1:162 a c2:countries ;
+	c2:ETG "NI" ;
+	c2:55E "12.865416"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-85.207229"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Nicaragua" .
+
+c1:163 a c2:countries ;
+	c2:ETG "NL" ;
+	c2:55E "52.132633"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "5.291266"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Netherlands" .
+
+c1:164 a c2:countries ;
+	c2:ETG "NO" ;
+	c2:55E "60.472024"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "8.468946"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Norway" .
+
+c1:165 a c2:countries ;
+	c2:ETG "NP" ;
+	c2:55E "28.394857"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "84.124008"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Nepal" .
+
+c1:166 a c2:countries ;
+	c2:ETG "NR" ;
+	c2:55E "-0.522778"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "166.931503"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Nauru" .
+
+c1:167 a c2:countries ;
+	c2:ETG "NU" ;
+	c2:55E "-19.054445"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-169.867233"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Niue" .
+
+c1:168 a c2:countries ;
+	c2:ETG "NZ" ;
+	c2:55E "-40.900557"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "174.885971"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "New Zealand" .
+
+c1:169 a c2:countries ;
+	c2:ETG "OM" ;
+	c2:55E "21.512583"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "55.923255"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Oman" .
+
+c1:170 a c2:countries ;
+	c2:ETG "PA" ;
+	c2:55E "8.537981"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-80.782127"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Panama" .
+
+c1:171 a c2:countries ;
+	c2:ETG "PE" ;
+	c2:55E "-9.189967"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-75.015152"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Peru" .
+
+c1:172 a c2:countries ;
+	c2:ETG "PF" ;
+	c2:55E "-17.679742"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-149.406843"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "French Polynesia" .
+
+c1:173 a c2:countries ;
+	c2:ETG "PG" ;
+	c2:55E "-6.314993"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "143.95555"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Papua New Guinea" .
+
+c1:174 a c2:countries ;
+	c2:ETG "PH" ;
+	c2:55E "12.879721"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "121.774017"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Philippines" .
+
+c1:175 a c2:countries ;
+	c2:ETG "PK" ;
+	c2:55E "30.375321"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "69.345116"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Pakistan" .
+
+c1:176 a c2:countries ;
+	c2:ETG "PL" ;
+	c2:55E "51.919438"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "19.145136"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Poland" .
+
+c1:177 a c2:countries ;
+	c2:ETG "PM" ;
+	c2:55E "46.941936"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-56.27111"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Saint Pierre and Miquelon" .
+
+c1:178 a c2:countries ;
+	c2:ETG "PN" ;
+	c2:55E "-24.703615"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-127.439308"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Pitcairn Islands" .
+
+c1:179 a c2:countries ;
+	c2:ETG "PR" ;
+	c2:55E "18.220833"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-66.590149"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Puerto Rico" .
+
+c1:180 a c2:countries ;
+	c2:ETG "PS" ;
+	c2:55E "31.952162"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "35.233154"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Palestinian Territories" .
+
+c1:181 a c2:countries ;
+	c2:ETG "PT" ;
+	c2:55E "39.399872"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-8.224454"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Portugal" .
+
+c1:182 a c2:countries ;
+	c2:ETG "PW" ;
+	c2:55E "7.51498"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "134.58252"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Palau" .
+
+c1:183 a c2:countries ;
+	c2:ETG "PY" ;
+	c2:55E "-23.442503"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-58.443832"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Paraguay" .
+
+c1:184 a c2:countries ;
+	c2:ETG "QA" ;
+	c2:55E "25.354826"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "51.183884"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Qatar" .
+
+c1:185 a c2:countries ;
+	c2:ETG "RE" ;
+	c2:55E "-21.115141"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "55.536384"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Réunion" .
+
+c1:186 a c2:countries ;
+	c2:ETG "RO" ;
+	c2:55E "45.943161"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "24.96676"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Romania" .
+
+c1:187 a c2:countries ;
+	c2:ETG "RS" ;
+	c2:55E "44.016521"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "21.005859"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Serbia" .
+
+c1:188 a c2:countries ;
+	c2:ETG "RU" ;
+	c2:55E "61.52401"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "105.318756"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Russia" .
+
+c1:189 a c2:countries ;
+	c2:ETG "RW" ;
+	c2:55E "-1.940278"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "29.873888"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Rwanda" .
+
+c1:190 a c2:countries ;
+	c2:ETG "SA" ;
+	c2:55E "23.885942"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "45.079162"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Saudi Arabia" .
+
+c1:191 a c2:countries ;
+	c2:ETG "SB" ;
+	c2:55E "-9.64571"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "160.156194"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Solomon Islands" .
+
+c1:192 a c2:countries ;
+	c2:ETG "SC" ;
+	c2:55E "-4.679574"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "55.491977"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Seychelles" .
+
+c1:193 a c2:countries ;
+	c2:ETG "SD" ;
+	c2:55E "12.862807"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "30.217636"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Sudan" .
+
+c1:194 a c2:countries ;
+	c2:ETG "SE" ;
+	c2:55E "60.128161"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "18.643501"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Sweden" .
+
+c1:195 a c2:countries ;
+	c2:ETG "SG" ;
+	c2:55E "1.352083"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "103.819836"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Singapore" .
+
+c1:196 a c2:countries ;
+	c2:ETG "SH" ;
+	c2:55E "-24.143474"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-10.030696"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Saint Helena" .
+
+c1:197 a c2:countries ;
+	c2:ETG "SI" ;
+	c2:55E "46.151241"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "14.995463"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Slovenia" .
+
+c1:198 a c2:countries ;
+	c2:ETG "SJ" ;
+	c2:55E "77.553604"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "23.670272"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Svalbard and Jan Mayen" .
+
+c1:199 a c2:countries ;
+	c2:ETG "SK" ;
+	c2:55E "48.669026"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "19.699024"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Slovakia" .
+
+c1:200 a c2:countries ;
+	c2:ETG "SL" ;
+	c2:55E "8.460555"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-11.779889"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Sierra Leone" .
+
+c1:201 a c2:countries ;
+	c2:ETG "SM" ;
+	c2:55E "43.94236"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "12.457777"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "San Marino" .
+
+c1:202 a c2:countries ;
+	c2:ETG "SN" ;
+	c2:55E "14.497401"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-14.452362"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Senegal" .
+
+c1:203 a c2:countries ;
+	c2:ETG "SO" ;
+	c2:55E "5.152149"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "46.199616"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Somalia" .
+
+c1:204 a c2:countries ;
+	c2:ETG "SR" ;
+	c2:55E "3.919305"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-56.027783"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Suriname" .
+
+c1:205 a c2:countries ;
+	c2:ETG "ST" ;
+	c2:55E "0.18636"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "6.613081"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "São Tomé and Príncipe" .
+
+c1:206 a c2:countries ;
+	c2:ETG "SV" ;
+	c2:55E "13.794185"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-88.89653"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "El Salvador" .
+
+c1:207 a c2:countries ;
+	c2:ETG "SY" ;
+	c2:55E "34.802075"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "38.996815"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Syria" .
+
+c1:208 a c2:countries ;
+	c2:ETG "SZ" ;
+	c2:55E "-26.522503"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "31.465866"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Swaziland" .
+
+c1:209 a c2:countries ;
+	c2:ETG "TC" ;
+	c2:55E "21.694025"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-71.797928"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Turks and Caicos Islands" .
+
+c1:210 a c2:countries ;
+	c2:ETG "TD" ;
+	c2:55E "15.454166"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "18.732207"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Chad" .
+
+c1:211 a c2:countries ;
+	c2:ETG "TF" ;
+	c2:55E "-49.280366"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "69.348557"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "French Southern Territories" .
+
+c1:212 a c2:countries ;
+	c2:ETG "TG" ;
+	c2:55E "8.619543"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "0.824782"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Togo" .
+
+c1:213 a c2:countries ;
+	c2:ETG "TH" ;
+	c2:55E "15.870032"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "100.992541"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Thailand" .
+
+c1:214 a c2:countries ;
+	c2:ETG "TJ" ;
+	c2:55E "38.861034"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "71.276093"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Tajikistan" .
+
+c1:215 a c2:countries ;
+	c2:ETG "TK" ;
+	c2:55E "-8.967363"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-171.855881"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Tokelau" .
+
+c1:216 a c2:countries ;
+	c2:ETG "TL" ;
+	c2:55E "-8.874217"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "125.727539"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Timor-Leste" .
+
+c1:217 a c2:countries ;
+	c2:ETG "TM" ;
+	c2:55E "38.969719"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "59.556278"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Turkmenistan" .
+
+c1:218 a c2:countries ;
+	c2:ETG "TN" ;
+	c2:55E "33.886917"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "9.537499"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Tunisia" .
+
+c1:219 a c2:countries ;
+	c2:ETG "TO" ;
+	c2:55E "-21.178986"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-175.198242"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Tonga" .
+
+c1:220 a c2:countries ;
+	c2:ETG "TR" ;
+	c2:55E "38.963745"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "35.243322"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Turkey" .
+
+c1:221 a c2:countries ;
+	c2:ETG "TT" ;
+	c2:55E "10.691803"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-61.222503"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Trinidad and Tobago" .
+
+c1:222 a c2:countries ;
+	c2:ETG "TV" ;
+	c2:55E "-7.109535"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "177.64933"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Tuvalu" .
+
+c1:223 a c2:countries ;
+	c2:ETG "TW" ;
+	c2:55E "23.69781"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "120.960515"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Taiwan" .
+
+c1:224 a c2:countries ;
+	c2:ETG "TZ" ;
+	c2:55E "-6.369028"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "34.888822"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Tanzania" .
+
+c1:225 a c2:countries ;
+	c2:ETG "UA" ;
+	c2:55E "48.379433"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "31.16558"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Ukraine" .
+
+c1:226 a c2:countries ;
+	c2:ETG "UG" ;
+	c2:55E "1.373333"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "32.290275"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Uganda" .
+
+c1:227 a c2:countries ;
+	c2:ETG "US" ;
+	c2:55E "37.09024"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-95.712891"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "United States" .
+
+c1:228 a c2:countries ;
+	c2:ETG "UY" ;
+	c2:55E "-32.522779"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-55.765835"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Uruguay" .
+
+c1:229 a c2:countries ;
+	c2:ETG "UZ" ;
+	c2:55E "41.377491"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "64.585262"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Uzbekistan" .
+
+c1:230 a c2:countries ;
+	c2:ETG "VA" ;
+	c2:55E "41.902916"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "12.453389"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Vatican City" .
+
+c1:231 a c2:countries ;
+	c2:ETG "VC" ;
+	c2:55E "12.984305"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-61.287228"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Saint Vincent and the Grenadines" .
+
+c1:232 a c2:countries ;
+	c2:ETG "VE" ;
+	c2:55E "6.42375"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-66.58973"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Venezuela" .
+
+c1:233 a c2:countries ;
+	c2:ETG "VG" ;
+	c2:55E "18.420695"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-64.639968"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "British Virgin Islands" .
+
+c1:234 a c2:countries ;
+	c2:ETG "VI" ;
+	c2:55E "18.335765"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-64.896335"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "U.S. Virgin Islands" .
+
+c1:235 a c2:countries ;
+	c2:ETG "VN" ;
+	c2:55E "14.058324"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "108.277199"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Vietnam" .
+
+c1:236 a c2:countries ;
+	c2:ETG "VU" ;
+	c2:55E "-15.376706"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "166.959158"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Vanuatu" .
+
+c1:237 a c2:countries ;
+	c2:ETG "WF" ;
+	c2:55E "-13.768752"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-177.156097"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Wallis and Futuna" .
+
+c1:238 a c2:countries ;
+	c2:ETG "WS" ;
+	c2:55E "-13.759029"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "-172.104629"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Samoa" .
+
+c1:239 a c2:countries ;
+	c2:ETG "XK" ;
+	c2:55E "42.602636"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "20.902977"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Kosovo" .
+
+c1:240 a c2:countries ;
+	c2:ETG "YE" ;
+	c2:55E "15.552727"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "48.516388"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Yemen" .
+
+c1:241 a c2:countries ;
+	c2:ETG "YT" ;
+	c2:55E "-12.8275"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "45.166244"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Mayotte" .
+
+c1:242 a c2:countries ;
+	c2:ETG "ZA" ;
+	c2:55E "-30.559482"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "22.937506"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "South Africa" .
+
+c1:243 a c2:countries ;
+	c2:ETG "ZM" ;
+	c2:55E "-13.133897"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "27.849332"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Zambia" .
+
+c1:244 a c2:countries ;
+	c2:ETG "ZW" ;
+	c2:55E "-19.015438"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:TBR "29.154857"^^<http://www.w3.org/2001/XMLSchema#double> ;
+	c2:LF1 "Zimbabwe" .
